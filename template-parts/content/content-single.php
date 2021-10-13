@@ -47,7 +47,7 @@
 				<dd><p class="resource--info--entry"><?php the_field ('grades_served'); ?></p></dd>
 			</div>
 			<div>
-				<dt><p><strong> class="resource--info--label">Contact:</strong></p></dt>
+				<dt><p><strong class="resource--info--label">Contact:</strong></p></dt>
 				<dd><p class="resource--info--entry"><?php the_field ('contact_name'); ?>, <?php the_field ('contact_email'); ?></p></dd>
 			</div>
 			<div>
