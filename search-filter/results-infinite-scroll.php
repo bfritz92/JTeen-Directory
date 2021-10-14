@@ -61,8 +61,8 @@ if ( $query->have_posts() )
 							<dd><p class="resource--info--entry"><?php the_field ('contact_name'); ?>, <?php the_field ('contact_email'); ?></p></dd>
 						</div>
 						<div>
-							<dt><p><strong class="resource--info--label">Contact:</strong></p></dt>
-							<dd><p class="resource--info--entry"><?php the_field ('contact_name'); ?>, <?php the_field ('contact_email'); ?></p></dd>
+							<dt><p><strong class="resource--info--label">Website:</strong></p></dt>
+							<dd><p class="resource--info--entry"><?php the_field ('website'); ?>, <?php the_field ('contact_email'); ?></p></dd>
 						</div>
 					</dl>
 					<p><br /><?php the_excerpt(); ?></p>
