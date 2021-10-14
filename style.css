@@ -4157,7 +4157,7 @@ body:not(.single) .site-main > article:last-of-type .entry-footer {
 h1.page-title,
 h2.page-title {
   font-weight: var(--heading--font-weight-page-title);
-  color: var(--global--color-primary);
+  color: var(--global--color-blue);
 }
 
 h1.page-title {
