@@ -14,7 +14,7 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
 	<?php get_template_part( 'template-parts/header/excerpt-header', get_post_format() ); ?>
-	<h2>TESTING TITLES AND SHIT</h2>
+	<h1>CHECK CHECK top layer</h1>
 	<div class="entry-content">
 		<?php get_template_part( 'template-parts/excerpt/excerpt', get_post_format() ); ?>
 	</div><!-- .entry-content -->
