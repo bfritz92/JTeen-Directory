@@ -71,9 +71,9 @@
   --heading--line-height-h3: var(--global--line-height-heading);
   --heading--line-height-h2: var(--global--line-height-heading);
   --heading--line-height-h1: var(--global--line-height-page-title);
-  --heading--font-weight: normal;
-  --heading--font-weight-page-title: 300;
-  --heading--font-weight-strong: 600;
+  --heading--font-weight: 700;
+  --heading--font-weight-page-title: 700;
+  --heading--font-weight-strong: 700;
   /* Block: Latest posts */
   --latest-posts--title-font-family: var(--heading--font-family);
   --latest-posts--title-font-size: var(--heading--font-size-h3);
@@ -87,7 +87,7 @@
   --global--color-gray: #39414d;
   --global--color-light-gray: #f0f0f0;
   --global--color-green: #d1e4dd;
-  --global--color-blue: #d1dfe4;
+  --global--color-blue: #105a97;
   --global--color-purple: #d1d1e4;
   --global--color-red: #e4d1d1;
   --global--color-orange: #e4dad1;
@@ -101,14 +101,14 @@
   );
   --global--color-white-90: rgba(255, 255, 255, 0.9);
   --global--color-primary: var(
-    --global--color-dark-gray
+    --global--color-blue
   );
   /* Body text color, site title, footer text color. */
-  --global--color-secondary: var(--global--color-gray);
+  --global--color-secondary: var(--global--color-blue);
   /* Headings */
   --global--color-primary-hover: var(--global--color-primary);
   --global--color-background: var(
-    --global--color-green
+    --global--color-white
   );
   /* Mint, default body background */
   --global--color-border: var(
