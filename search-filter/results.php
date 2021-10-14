@@ -77,7 +77,7 @@ if ( $query->have_posts() )
 						</div>
 						<div>
 							<dt><p><strong class="resource--info--label">Website:</strong></p></dt>
-							<dd><p class="resource--info--entry"><?php the_field ('website'); ?>, <?php the_field ('contact_email'); ?></p></dd>
+							<dd><p class="resource--info--entry"><a href="<?php the_field ('website'); ?>"><?php the_field ('website'); ?></a></p></dd>
 						</div>
 					</dl>
 					<p><br /><?php the_excerpt(); ?></p>
