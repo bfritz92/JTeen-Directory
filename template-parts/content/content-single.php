@@ -20,6 +20,8 @@
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">
+		
+		<img class="resource--img" src="<?php the_field ('logo'); ?>">
 		<?php
 		the_content();
 
@@ -32,7 +34,6 @@
 			)
 		);
 		?>
-		<img class="resource--img" src="<?php the_field ('logo'); ?>">
 		<div class="tags">
 			<h4 class="tags--title"><?php the_field ('category'); ?></h4>
 			<h4 class="tags--title"><?php the_field ('time_of_year'); ?></h4>
