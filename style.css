@@ -136,7 +136,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
   --global--font-size-xl: 2.25rem;
   --global--font-size-xxl: 4rem;
   --global--font-size-xxxl: 5rem;
-  --global--font-size-page-title: var(--global--font-size-xxl);
+  --global--font-size-page-title: var(--global--font-size-lg);
   --global--letter-spacing: normal;
   /* Line Height */
   --global--line-height-body: 1.7;
@@ -178,7 +178,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
   --global--color-gray: #39414d;
   --global--color-light-gray: #f0f0f0;
   --global--color-green: #d1e4dd;
-  --global--color-blue: #d1dfe4;
+  --global--color-blue: #105a97;
   --global--color-purple: #d1d1e4;
   --global--color-red: #e4d1d1;
   --global--color-orange: #e4dad1;
@@ -192,14 +192,14 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
   );
   --global--color-white-90: rgba(255, 255, 255, 0.9);
   --global--color-primary: var(
-    --global--color-dark-gray
+    --global--color-blue
   );
   /* Body text color, site title, footer text color. */
-  --global--color-secondary: var(--global--color-gray);
+  --global--color-secondary: var(--global--color-blue);
   /* Headings */
   --global--color-primary-hover: var(--global--color-primary);
   --global--color-background: var(
-    --global--color-green
+    --global--color-white
   );
   /* Mint, default body background */
   --global--color-border: var(
@@ -4157,6 +4157,7 @@ body:not(.single) .site-main > article:last-of-type .entry-footer {
 h1.page-title,
 h2.page-title {
   font-weight: var(--heading--font-weight-page-title);
+  color: var(--global--color-primary);
 }
 
 h1.page-title {

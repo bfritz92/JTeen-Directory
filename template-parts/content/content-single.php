@@ -21,7 +21,7 @@
 
 	<div class="entry-content">
 		
-		<img class="resource--img" src="<?php the_field ('logo'); ?>">
+		<img class="resource--img aligncenter" src="<?php the_field ('logo'); ?>">
 		<?php
 		the_content();
 
