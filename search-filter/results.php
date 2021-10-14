@@ -54,31 +54,40 @@ if ( $query->have_posts() )
 		$query->the_post();
 		
 		?>
-		<div class="feature-grants">
-			<div>
-			<h4><a href="<?php the_permalink(); ?>"><?php the_field ('name_of_organization'); ?></a></h4>
-			<p class="grant--title"><strong><?php the_title(); ?></strong></p>
-			<ul class="grant--info mt1">
-				<li>
-					<strong>City/State:</strong>
-					<br />
-					<?php the_field ('city_state_country'); ?>
-				</li>
-				<li>
-					<strong>Amount:</strong>
-					<br />
-					$ <?php the_field ('grant_amount'); ?> 
-				</li>
-				<li>
-					<strong>Year:</strong>
-					<br />
-					<?php the_field ('year_grant_made'); ?> 
-				</li>
-			</ul>
-			<?php the_excerpt(); ?>
-			
+		<div class='search-filter-result-item'>
+				<img class="resource--img" src="<?php the_field ('logo'); ?>">
+				<div>
+					<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+					<div class="tags">
+						<h4 class="tags--title"><?php the_field ('category'); ?></h4>
+						<h4 class="tags--title"><?php the_field ('time_of_year'); ?></h4>
+						<h4 class="tags--title"><?php the_field ('genders_served'); ?></h4>
+					</div>
+					<dl class="resource--info">
+						<div>
+							<dd><h4 class="resource--info--org"><?php the_field ('presenting_org'); ?></h4></dd>
+						</div>
+						<div>
+							<dt><p><strong class="resource--info--label">Ages/Grades Served:</strong> </p></dt>
+							<dd><p class="resource--info--entry"><?php the_field ('grades_served'); ?></p></dd>
+						</div>
+						<div>
+							<dt><p><strong class="resource--info--label">Contact:</strong></p></dt>
+							<dd><p class="resource--info--entry"><?php the_field ('contact_name'); ?>, <?php the_field ('contact_email'); ?></p></dd>
+						</div>
+						<div>
+							<dt><p><strong class="resource--info--label">Contact:</strong></p></dt>
+							<dd><p class="resource--info--entry"><?php the_field ('contact_name'); ?>, <?php the_field ('contact_email'); ?></p></dd>
+						</div>
+					</dl>
+					<p><br /><?php the_excerpt(); ?></p>
+					
+					<div class="resource--register">
+						<a href="<?php the_field ('website'); ?>">Register Now</a>
+					</div>
+				</div>
+				<hr />
 			</div>
-		</div>
 		
 		<br />
 		<?php
