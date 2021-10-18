@@ -1950,6 +1950,24 @@ input[type="reset"]:disabled,
   padding-right: var(--global--spacing-unit);
 }
 
+.wp-block-columns.front-page--search div.wp-block-column:first-child {
+  -ms-flex-preferred-size: 33.33%;
+      flex-basis: 33.33%;
+  positon: sticky;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 65px;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  background-color: var(--global--color-blue);
+  color: #fff;
+}
+
+.wp-block-columns.front-page--search div.wp-block-column:first-child form ul {
+  padding-left: 0;
+}
+
 .wp-block-cover,
 .wp-block-cover-image {
   background-color: var(--cover--color-background);
