@@ -120,6 +120,7 @@
   align-items: start;
   img {
     flex-basis: 33%;
+    max-width: 250px;
   }
   h2 {
     color: var(--global--color-blue);

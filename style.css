@@ -1985,6 +1985,7 @@ input[type="reset"]:disabled,
 .search-filter-result-item img {
   -ms-flex-preferred-size: 33%;
       flex-basis: 33%;
+  max-width: 250px;
 }
 
 .search-filter-result-item h2 {
