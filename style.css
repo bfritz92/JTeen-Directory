@@ -1971,6 +1971,26 @@ input[type="reset"]:disabled,
   padding-right: 10px;
 }
 
+.search-filter-result-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+}
+
+.search-filter-result-item img {
+  -ms-flex-preferred-size: 33%;
+      flex-basis: 33%;
+}
+
+.search-filter-result-item h2 {
+  color: var(--global--color-blue);
+}
+
 .wp-block-cover,
 .wp-block-cover-image {
   background-color: var(--cover--color-background);
