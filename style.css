@@ -2308,12 +2308,16 @@ h6,
       -ms-flex-pack: start;
           justify-content: start;
   gap: 20px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .tags--title {
   color: var(--global--color-white);
   background-color: var(--global--color-blue);
   padding: 10px 20px;
+  font-size: var(--heading--font-size-h6);
+  word-break: keep-all;
 }
 
 .wp-block-image {
