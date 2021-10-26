@@ -4276,6 +4276,17 @@ h1.page-title {
   line-height: var(--global--line-height-heading);
 }
 
+.resource--info div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: var(--global--color-gray);
+}
+
+.resource--info--org dd {
+  padding-left: 0;
+}
+
 .error404 main p {
   font-size: var(--global--font-size-lg);
   margin-bottom: calc(var(--global--spacing-vertical) * 1.6666666667);
