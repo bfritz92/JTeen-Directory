@@ -82,9 +82,6 @@ if ( $query->have_posts() )
 					</dl>
 					<p><br /><?php the_excerpt(); ?></p>
 					
-					<div class="resource--register">
-						<a href="<?php the_field ('website'); ?>">Register Now</a>
-					</div>
 				</div>
 				<hr />
 			</div>
