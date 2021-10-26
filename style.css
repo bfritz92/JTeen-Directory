@@ -2009,6 +2009,11 @@ input[type="reset"]:disabled,
   font-style: italic;
 }
 
+.search-filter-result-item .resource--info p a.more-link {
+  text-align: right;
+  color: var(--global--color-blue);
+}
+
 .tags {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2019,7 +2024,7 @@ input[type="reset"]:disabled,
   gap: 20px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  padding-bottom: var(--global--spacing-unit);
+  padding-top: var(--global--spacing-unit);
 }
 
 .tags--title {
