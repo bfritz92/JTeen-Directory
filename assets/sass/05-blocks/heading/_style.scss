@@ -63,17 +63,3 @@ h6,
   letter-spacing: var(--heading--letter-spacing-h6);
   line-height: var(--heading--line-height-h6);
 }
-
-.tags {
-  display: flex;
-  justify-content: start;
-  gap: 20px;
-  flex-wrap: wrap;
-  &--title {
-    color: var(--global--color-white);
-    background-color: var(--global--color-blue);
-    padding: 10px 20px;
-    font-size: var(--heading--font-size-h6);
-    word-break: keep-all;
-  }
-}

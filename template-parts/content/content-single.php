@@ -39,7 +39,7 @@
 			<h4 class="tags--title"><?php the_field ('time_of_year'); ?></h4>
 			<h4 class="tags--title"><?php the_field ('genders_served'); ?></h4>
 		</div>
-		<dl class="resource--info">
+		<dl class="resource--info--list">
 			<div class="resource--info--org">
 				<dd><h4><?php the_field ('presenting_org'); ?></h4></dd>
 			</div>

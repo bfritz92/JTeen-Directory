@@ -59,15 +59,3 @@ h1.page-title {
   font-size: var(--global--font-size-xl);
   line-height: var(--global--line-height-heading);
 }
-
-.resource--info {
-  div {
-    display: flex;
-    color: var(--global--color-gray);
-  }
-  &--org {
-    dd {
-      padding-left: 0;
-    }
-  }
-}

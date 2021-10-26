@@ -56,14 +56,14 @@ if ( $query->have_posts() )
 		?>
 		<div class='search-filter-result-item'>
 				<img class="resource--img" src="<?php the_field ('logo'); ?>">
-				<div>
+				<div class="resource--info">
 					<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 					<div class="tags">
 						<h4 class="tags--title"><?php the_field ('category'); ?></h4>
 						<h4 class="tags--title"><?php the_field ('time_of_year'); ?></h4>
 						<h4 class="tags--title"><?php the_field ('genders_served'); ?></h4>
 					</div>
-					<dl class="resource--info">
+					<dl class="resource--info--list">
 						<div  class="resource--info--org">
 							<dd><h4><?php the_field ('presenting_org'); ?></h4></dd>
 						</div>

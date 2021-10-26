@@ -125,4 +125,32 @@
   h2 {
     color: var(--global--color-blue);
   }
+
+  .resource--info {
+    div {
+      display: flex;
+      color: var(--global--color-gray);
+    }
+    &--org {
+      dd {
+        padding-left: 0;
+      }
+    }
+    &--info {
+    }
+  }
+}
+.tags {
+  display: flex;
+  justify-content: start;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding-bottom: var(--global--spacing-unit);
+  &--title {
+    color: var(--global--color-white);
+    background-color: var(--global--color-blue);
+    padding: 10px 20px;
+    font-size: var(--heading--font-size-h6);
+    word-break: keep-all;
+  }
 }
