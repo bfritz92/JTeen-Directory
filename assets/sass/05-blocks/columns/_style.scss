@@ -144,8 +144,10 @@
       }
     }
     p a.more-link {
-      text-align: right;
+      display: block;
+      float: right;
       color: var(--global--color-blue);
+      font-weight: 700;
     }
   }
 }
