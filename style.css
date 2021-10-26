@@ -4084,6 +4084,7 @@ h1.entry-title {
 .entry-content,
 .entry-summary {
   font-family: var(--entry-content--font-family);
+  letter-spacing: var(--global--letter-spacing);
 }
 
 .entry-content p {
