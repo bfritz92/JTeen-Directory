@@ -40,20 +40,20 @@
 			<h4 class="tags--title"><?php the_field ('genders_served'); ?></h4>
 		</div>
 		<dl class="resource--info">
-			<div>
-				<dd><h4 class="resource--info--org"><?php the_field ('presenting_org'); ?></h4></dd>
+			<div class="resource--info--org">
+				<dd><h4><?php the_field ('presenting_org'); ?></h4></dd>
 			</div>
-			<div>
-				<dt><p><strong class="resource--info--label">Ages/Grades Served:</strong> </p></dt>
-				<dd><p class="resource--info--entry"><?php the_field ('grades_served'); ?></p></dd>
+			<div class="resource--info--genders">
+				<dt><p><strong>Ages/Grades Served:</strong> </p></dt>
+				<dd><p><?php the_field ('grades_served'); ?></p></dd>
 			</div>
-			<div>
-				<dt><p><strong class="resource--info--label">Contact:</strong></p></dt>
-				<dd><p class="resource--info--entry"><?php the_field ('contact_name'); ?>, <?php the_field ('contact_email'); ?></p></dd>
+			<div class="resource--info--contact">
+				<dt><p><strong>Contact:</strong></p></dt>
+				<dd><p><?php the_field ('contact_name'); ?>, <?php the_field ('contact_email'); ?></p></dd>
 			</div>
-			<div>
-				<dt><p><strong class="resource--info--label">Website:</strong></p></dt>
-				<dd><p class="resource--info--entry"><?php the_field ('website'); ?>, <?php the_field ('contact_email'); ?></p></dd>
+			<div class="resource--info--website">
+				<dt><p><strong>Website:</strong></p></dt>
+				<dd><p><?php the_field ('website'); ?>, <?php the_field ('contact_email'); ?></p></dd>
 			</div>
 		</dl>
 		<?php the_field ('content'); ?>
