@@ -44,7 +44,7 @@
 				<dd><h4><?php the_field ('presenting_org'); ?></h4></dd>
 			</div>
 			<div class="resource--info--genders">
-				<dt><p><strong>Ages/Grades Served:</strong> </p></dt>
+				<dt><p><strong>Grades Served:</strong> </p></dt>
 				<dd><p><?php the_field ('grades_served'); ?></p></dd>
 			</div>
 			<div class="resource--info--contact">
