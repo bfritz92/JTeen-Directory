@@ -130,7 +130,6 @@
     h2 a {
       color: var(--global--color--blue);
       padding-bottom: var(--global--spacing-unit);
-      font-style: italic;
     }
     div {
       display: flex;
@@ -141,6 +140,7 @@
     &--org {
       dd {
         padding-left: 0;
+        font-style: italic;
       }
     }
   }
