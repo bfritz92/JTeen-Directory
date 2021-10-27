@@ -2013,6 +2013,14 @@ input[type="reset"]:disabled,
   font-size: var(--heading--font-size-h3);
 }
 
+.search-filter-result-item .resource--info {
+  -ms-flex-preferred-size: 60%;
+      flex-basis: 60%;
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+}
+
 .search-filter-result-item .resource--info h2 a {
   color: var(--global--color--blue);
   padding-bottom: var(--global--spacing-unit);
