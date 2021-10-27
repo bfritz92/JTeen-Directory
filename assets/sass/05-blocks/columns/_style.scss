@@ -173,6 +173,8 @@
 .sf-field-post-meta-time_of_year {
   ul {
     display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
     li {
       input {
         display: none;
@@ -180,6 +182,7 @@
       label {
         border: 2px solid var(--global--color-white);
         padding: 5px 10px;
+        word-break: keep-all;
         color: #fff;
         background-color: var(--global--color-blue);
         &:hover,

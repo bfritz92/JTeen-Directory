@@ -2044,6 +2044,9 @@ input[type="reset"]:disabled,
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 15px;
 }
 
 .sf-field-post-meta-genders_served ul li input,
@@ -2055,6 +2058,7 @@ input[type="reset"]:disabled,
 .sf-field-post-meta-time_of_year ul li label {
   border: 2px solid var(--global--color-white);
   padding: 5px 10px;
+  word-break: keep-all;
   color: #fff;
   background-color: var(--global--color-blue);
 }
