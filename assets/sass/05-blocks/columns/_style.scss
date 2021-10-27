@@ -133,6 +133,11 @@
       color: var(--global--color--blue);
       padding-bottom: var(--global--spacing-unit);
     }
+    dl {
+      *:not(a) {
+        word-break: keep-all;
+      }
+    }
     div {
       display: flex;
       color: var(--global--color-gray);
