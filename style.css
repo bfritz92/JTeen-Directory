@@ -1980,12 +1980,13 @@ input[type="reset"]:disabled,
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: start;
+  gap: var(--global--spacing-unit);
 }
 
 .search-filter-result-item img {
-  -ms-flex-preferred-size: 33%;
-      flex-basis: 33%;
-  max-width: 250px;
+  -ms-flex-preferred-size: 30%;
+      flex-basis: 30%;
+  max-width: 175px;
 }
 
 .search-filter-result-item h2 {
@@ -2034,8 +2035,41 @@ input[type="reset"]:disabled,
   color: var(--global--color-white);
   background-color: var(--global--color-blue);
   padding: 10px 20px;
-  font-size: var(--heading--font-size-h6);
+  font-size: var(--global--font-size-sm);
   word-break: keep-all;
+}
+
+.sf-field-post-meta-genders_served ul,
+.sf-field-post-meta-time_of_year ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.sf-field-post-meta-genders_served ul li input,
+.sf-field-post-meta-time_of_year ul li input {
+  display: none;
+}
+
+.sf-field-post-meta-genders_served ul li label,
+.sf-field-post-meta-time_of_year ul li label {
+  border: 2px solid var(--global--color-white);
+  padding: 5px 10px;
+  color: #fff;
+  background-color: var(--global--color-blue);
+}
+
+.sf-field-post-meta-genders_served ul li label:hover, .sf-field-post-meta-genders_served ul li label:active,
+.sf-field-post-meta-time_of_year ul li label:hover,
+.sf-field-post-meta-time_of_year ul li label:active {
+  color: var(--global--color-blue);
+  background-color: #fff;
+}
+
+.sf-field-post-meta-genders_served ul li.sf-option-active label,
+.sf-field-post-meta-time_of_year ul li.sf-option-active label {
+  color: var(--global--color-blue);
+  background-color: #fff;
 }
 
 .wp-block-cover,
