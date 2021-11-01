@@ -207,3 +207,8 @@
     }
   }
 }
+
+//Hide first items in lists
+li.sf-level-0.sf-item-0 {
+  display: none;
+}

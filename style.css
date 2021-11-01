@@ -2107,6 +2107,10 @@ input[type="reset"]:disabled,
   background-color: #fff;
 }
 
+li.sf-level-0.sf-item-0 {
+  display: none;
+}
+
 .wp-block-cover,
 .wp-block-cover-image {
   background-color: var(--cover--color-background);
