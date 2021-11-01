@@ -119,7 +119,7 @@ $breakpoint_xxl: 1024px;
       #{$default_width}
     );
     --responsive--alignwide-width: min(
-      calc(100vw - 8 * var(--global--spacing-horizontal)),
+      calc(100vw - 4 * var(--global--spacing-horizontal)),
       #{$max_content_width}
     );
   }
