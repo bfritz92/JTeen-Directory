@@ -2077,6 +2077,7 @@ form.searchandfilter ul li h4 {
   width: 100%;
   text-underline-offset: 5px;
   padding-bottom: 0;
+  margin-bottom: var(--global--spacing-vertical);
 }
 
 form.searchandfilter ul li.sf-field-search label {
@@ -2085,6 +2086,28 @@ form.searchandfilter ul li.sf-field-search label {
 
 form.searchandfilter ul li.sf-field-search label input {
   width: 100%;
+}
+
+form.searchandfilter ul li.sf-field-post-meta-grades_served .sf-meta-range.sf-meta-range-slider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+form.searchandfilter ul li.sf-field-post-meta-grades_served .sf-meta-range.sf-meta-range-slider span {
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+}
+
+form.searchandfilter ul li.sf-field-post-meta-grades_served .sf-meta-range.sf-meta-range-slider span.sf-range-min {
+  padding-left: var(--global--spacing-unit);
+}
+
+form.searchandfilter ul li.sf-field-post-meta-grades_served .sf-meta-range.sf-meta-range-slider div.meta-slider {
+  min-width: 70%;
 }
 
 .sf-field-post-meta-genders_served ul,

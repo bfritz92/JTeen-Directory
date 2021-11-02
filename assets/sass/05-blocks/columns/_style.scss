@@ -186,6 +186,7 @@ form.searchandfilter {
         width: 100%;
         text-underline-offset: 5px;
         padding-bottom: 0;
+        margin-bottom: var(--global--spacing-vertical);
       }
     }
     li.sf-field-search {
@@ -193,6 +194,21 @@ form.searchandfilter {
         width: 99% !important;
         input {
           width: 100%;
+        }
+      }
+    }
+    li.sf-field-post-meta-grades_served {
+      .sf-meta-range.sf-meta-range-slider {
+        display: flex;
+        flex-wrap: wrap;
+        span {
+          order: 2;
+          &.sf-range-min {
+            padding-left: var(--global--spacing-unit);
+          }
+        }
+        div.meta-slider {
+          min-width: 70%;
         }
       }
     }
