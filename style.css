@@ -2033,7 +2033,7 @@ input[type="reset"]:disabled,
   word-break: keep-all;
 }
 
-.search-filter-result-item .resource--info dl *:not(a) dd {
+.search-filter-result-item .resource--info dl dd {
   padding-left: calc(var(--global--spacing-unit) / 2);
 }
 

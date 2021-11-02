@@ -141,9 +141,9 @@
     dl {
       *:not(a) {
         word-break: keep-all;
-        dd {
-          padding-left: calc(var(--global--spacing-unit) / 2);
-        }
+      }
+      dd {
+        padding-left: calc(var(--global--spacing-unit) / 2);
       }
     }
     div {
