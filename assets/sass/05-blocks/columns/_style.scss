@@ -172,12 +172,21 @@
     padding: 10px 20px;
     font-size: var(--global--font-size-sm);
     word-break: keep-all;
+    font-size: var(--global--font-size-xs);
   }
 }
 
 //search bar
 form.searchandfilter {
   ul {
+    li {
+      h4 {
+        font-size: var(--heading--font-size-h4);
+        border-bottom: solid var(--global--color-white) 2px;
+        width: 100%;
+        text-underline-offset: 5px;
+      }
+    }
     li.sf-field-search {
       label {
         width: 99% !important;
