@@ -163,7 +163,7 @@
 .tags {
   display: flex;
   justify-content: start;
-  gap: var(--global--spacing-unit);
+  gap: calc(var(--global--spacing-unit) / 2);
   flex-wrap: wrap;
   padding-top: var(--global--spacing-unit);
   &--title {
@@ -203,7 +203,7 @@ form.searchandfilter {
   ul {
     display: flex;
     flex-wrap: wrap;
-    gap: var(--global--spacing-unit);
+    gap: calc(var(--global--spacing-unit) / 2);
     li {
       input {
         display: none;
