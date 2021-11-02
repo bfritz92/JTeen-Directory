@@ -213,6 +213,7 @@ form.searchandfilter {
         flex-wrap: wrap;
         span {
           order: 2;
+          font-size: var(--global--font-size-md);
           &.sf-range-min {
             padding-left: calc(2 * var(--global--spacing-unit));
           }

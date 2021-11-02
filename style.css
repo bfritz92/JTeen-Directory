@@ -2112,6 +2112,7 @@ form.searchandfilter ul li.sf-field-post-meta-grades_served .sf-meta-range.sf-me
   -webkit-box-ordinal-group: 3;
       -ms-flex-order: 2;
           order: 2;
+  font-size: var(--global--font-size-md);
 }
 
 form.searchandfilter ul li.sf-field-post-meta-grades_served .sf-meta-range.sf-meta-range-slider span.sf-range-min {
