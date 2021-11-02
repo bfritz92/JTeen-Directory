@@ -2056,7 +2056,7 @@ input[type="reset"]:disabled,
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: start;
-  gap: 20px;
+  gap: var(--global--spacing-unit);
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   padding-top: var(--global--spacing-unit);
@@ -2070,6 +2070,14 @@ input[type="reset"]:disabled,
   word-break: keep-all;
 }
 
+form.searchandfilter ul li.sf-field-search label {
+  width: 99% !important;
+}
+
+form.searchandfilter ul li.sf-field-search label input {
+  width: 100%;
+}
+
 .sf-field-post-meta-genders_served ul,
 .sf-field-post-meta-time_of_year ul {
   display: -webkit-box;
@@ -2077,7 +2085,7 @@ input[type="reset"]:disabled,
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  gap: 15px;
+  gap: var(--global--spacing-unit);
 }
 
 .sf-field-post-meta-genders_served ul li input,
