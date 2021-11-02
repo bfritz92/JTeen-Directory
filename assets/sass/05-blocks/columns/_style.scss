@@ -107,8 +107,11 @@
     }
     form {
       ul {
-        padding-left: 10px;
-        padding-right: 10px;
+        padding: calc(var(--global--spacing-unit) / 2)
+          var(--global--spacing-unit);
+        li ul {
+          padding: 0;
+        }
       }
     }
   }
@@ -212,7 +215,8 @@ form.searchandfilter {
         }
       }
     }
-    li.sf-field-post-meta-category {
+    li.sf-field-post-meta-category,
+    li.sf-field-post-meta-location {
       label {
         width: 100%;
         select.sf-input-select {
@@ -220,34 +224,34 @@ form.searchandfilter {
         }
       }
     }
-  }
-}
-.sf-field-post-meta-genders_served,
-.sf-field-post-meta-time_of_year {
-  ul {
-    display: flex;
-    flex-wrap: wrap;
-    gap: calc(var(--global--spacing-unit) / 2);
-    li {
-      input {
-        display: none;
-      }
-      label {
-        border: 2px solid var(--global--color-white);
-        padding: 5px 10px;
-        word-break: keep-all;
-        color: #fff;
-        background-color: var(--global--color-blue);
-        &:hover,
-        &:active {
-          color: var(--global--color-blue);
-          background-color: #fff;
-        }
-      }
-      &.sf-option-active {
-        label {
-          color: var(--global--color-blue);
-          background-color: #fff;
+    li.sf-field-post-meta-genders_served,
+    li.sf-field-post-meta-time_of_year {
+      ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: calc(var(--global--spacing-unit) / 2);
+        li {
+          input {
+            display: none;
+          }
+          label {
+            border: 2px solid var(--global--color-white);
+            padding: 5px 10px;
+            word-break: keep-all;
+            color: #fff;
+            background-color: var(--global--color-blue);
+            &:hover,
+            &:active {
+              color: var(--global--color-blue);
+              background-color: #fff;
+            }
+          }
+          &.sf-option-active {
+            label {
+              color: var(--global--color-blue);
+              background-color: #fff;
+            }
+          }
         }
       }
     }

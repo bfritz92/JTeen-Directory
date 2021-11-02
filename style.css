@@ -1986,8 +1986,11 @@ input[type="reset"]:disabled,
 }
 
 .wp-block-columns.front-page--search div.wp-block-column:first-child form ul {
-  padding-left: 10px;
-  padding-right: 10px;
+  padding: calc(var(--global--spacing-unit) / 2) var(--global--spacing-unit);
+}
+
+.wp-block-columns.front-page--search div.wp-block-column:first-child form ul li ul {
+  padding: 0;
 }
 
 .search-filter-result-item {
@@ -2110,16 +2113,18 @@ form.searchandfilter ul li.sf-field-post-meta-grades_served .sf-meta-range.sf-me
   min-width: 70%;
 }
 
-form.searchandfilter ul li.sf-field-post-meta-category label {
+form.searchandfilter ul li.sf-field-post-meta-category label,
+form.searchandfilter ul li.sf-field-post-meta-location label {
   width: 100%;
 }
 
-form.searchandfilter ul li.sf-field-post-meta-category label select.sf-input-select {
+form.searchandfilter ul li.sf-field-post-meta-category label select.sf-input-select,
+form.searchandfilter ul li.sf-field-post-meta-location label select.sf-input-select {
   width: clamp(170px, 100%, 400px);
 }
 
-.sf-field-post-meta-genders_served ul,
-.sf-field-post-meta-time_of_year ul {
+form.searchandfilter ul li.sf-field-post-meta-genders_served ul,
+form.searchandfilter ul li.sf-field-post-meta-time_of_year ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2128,13 +2133,13 @@ form.searchandfilter ul li.sf-field-post-meta-category label select.sf-input-sel
   gap: calc(var(--global--spacing-unit) / 2);
 }
 
-.sf-field-post-meta-genders_served ul li input,
-.sf-field-post-meta-time_of_year ul li input {
+form.searchandfilter ul li.sf-field-post-meta-genders_served ul li input,
+form.searchandfilter ul li.sf-field-post-meta-time_of_year ul li input {
   display: none;
 }
 
-.sf-field-post-meta-genders_served ul li label,
-.sf-field-post-meta-time_of_year ul li label {
+form.searchandfilter ul li.sf-field-post-meta-genders_served ul li label,
+form.searchandfilter ul li.sf-field-post-meta-time_of_year ul li label {
   border: 2px solid var(--global--color-white);
   padding: 5px 10px;
   word-break: keep-all;
@@ -2142,15 +2147,15 @@ form.searchandfilter ul li.sf-field-post-meta-category label select.sf-input-sel
   background-color: var(--global--color-blue);
 }
 
-.sf-field-post-meta-genders_served ul li label:hover, .sf-field-post-meta-genders_served ul li label:active,
-.sf-field-post-meta-time_of_year ul li label:hover,
-.sf-field-post-meta-time_of_year ul li label:active {
+form.searchandfilter ul li.sf-field-post-meta-genders_served ul li label:hover, form.searchandfilter ul li.sf-field-post-meta-genders_served ul li label:active,
+form.searchandfilter ul li.sf-field-post-meta-time_of_year ul li label:hover,
+form.searchandfilter ul li.sf-field-post-meta-time_of_year ul li label:active {
   color: var(--global--color-blue);
   background-color: #fff;
 }
 
-.sf-field-post-meta-genders_served ul li.sf-option-active label,
-.sf-field-post-meta-time_of_year ul li.sf-option-active label {
+form.searchandfilter ul li.sf-field-post-meta-genders_served ul li.sf-option-active label,
+form.searchandfilter ul li.sf-field-post-meta-time_of_year ul li.sf-option-active label {
   color: var(--global--color-blue);
   background-color: #fff;
 }
