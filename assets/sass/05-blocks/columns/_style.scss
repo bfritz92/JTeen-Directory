@@ -142,7 +142,7 @@
       *:not(a) {
         word-break: keep-all;
         dd {
-          margin-left: calc(var(--global-spacing-unit) / 2);
+          margin-left: calc(var(--global--spacing-unit) / 2);
         }
       }
     }

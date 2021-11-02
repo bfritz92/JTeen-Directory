@@ -2034,7 +2034,7 @@ input[type="reset"]:disabled,
 }
 
 .search-filter-result-item .resource--info dl *:not(a) dd {
-  margin-left: calc(var(--global-spacing-unit) / 2);
+  margin-left: calc(var(--global--spacing-unit) / 2);
 }
 
 .search-filter-result-item .resource--info div {
