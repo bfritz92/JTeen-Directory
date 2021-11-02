@@ -163,7 +163,7 @@
 .tags {
   display: flex;
   justify-content: start;
-  gap: 20px;
+  gap: var(--global--spacing-unit);
   flex-wrap: wrap;
   padding-top: var(--global--spacing-unit);
   &--title {
@@ -180,7 +180,7 @@ form.searchandfilter {
   ul {
     li.sf-field-search {
       label {
-        width: 99%;
+        width: 99% !important;
         input {
           width: 100%;
         }
@@ -193,7 +193,7 @@ form.searchandfilter {
   ul {
     display: flex;
     flex-wrap: wrap;
-    gap: 15px;
+    gap: var(--global--spacing-unit);
     li {
       input {
         display: none;
