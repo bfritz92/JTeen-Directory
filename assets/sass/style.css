@@ -2070,11 +2070,11 @@ input[type="reset"]:disabled,
   word-break: keep-all;
 }
 
-.searchandfilter ul li.sf-field-search label {
+form.searchandfilter ul li.sf-field-search label {
   width: 99%;
 }
 
-.searchandfilter ul li.sf-field-search label input {
+form.searchandfilter ul li.sf-field-search label input {
   width: 100%;
 }
 

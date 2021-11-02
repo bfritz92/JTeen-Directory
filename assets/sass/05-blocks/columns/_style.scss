@@ -176,15 +176,13 @@
 }
 
 //search bar
-.searchandfilter {
+form.searchandfilter {
   ul {
-    li {
-      &.sf-field-search {
-        label {
-          width: 99%;
-          input {
-            width: 100%;
-          }
+    li.sf-field-search {
+      label {
+        width: 99%;
+        input {
+          width: 100%;
         }
       }
     }
