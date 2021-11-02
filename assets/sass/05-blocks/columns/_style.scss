@@ -152,6 +152,7 @@
     &--org {
       dd {
         padding-left: 0;
+        margin-left: calc(var(--global-spacing-unit) / 2);
         font-style: italic;
       }
     }

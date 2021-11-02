@@ -2042,6 +2042,7 @@ input[type="reset"]:disabled,
 
 .search-filter-result-item .resource--info--org dd {
   padding-left: 0;
+  margin-left: calc(var(--global-spacing-unit) / 2);
   font-style: italic;
 }
 
