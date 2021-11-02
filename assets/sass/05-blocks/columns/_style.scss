@@ -186,7 +186,7 @@ form.searchandfilter {
         width: 100%;
         text-underline-offset: 5px;
         padding-bottom: 0;
-        margin-bottom: var(--global--spacing-vertical);
+        margin-bottom: calc(var(--global--spacing-vertical) / 2);
       }
     }
     li.sf-field-search {
@@ -204,11 +204,19 @@ form.searchandfilter {
         span {
           order: 2;
           &.sf-range-min {
-            padding-left: var(--global--spacing-unit);
+            padding-left: calc(2 * var(--global--spacing-unit));
           }
         }
         div.meta-slider {
           min-width: 70%;
+        }
+      }
+    }
+    li.sf-field-post-meta-category {
+      label {
+        width: 100%;
+        select.sf-input-select {
+          width: clamp(170px, 100%, 400px);
         }
       }
     }
