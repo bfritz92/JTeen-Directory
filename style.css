@@ -2033,6 +2033,10 @@ input[type="reset"]:disabled,
   word-break: keep-all;
 }
 
+.search-filter-result-item .resource--info dl *:not(a) dd {
+  margin-left: calc(var(--global-spacing-unit) / 2);
+}
+
 .search-filter-result-item .resource--info div {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2042,7 +2046,6 @@ input[type="reset"]:disabled,
 
 .search-filter-result-item .resource--info--org dd {
   padding-left: 0;
-  margin-left: calc(var(--global-spacing-unit) / 2);
   font-style: italic;
 }
 
