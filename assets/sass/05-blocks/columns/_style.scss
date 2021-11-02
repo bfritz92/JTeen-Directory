@@ -144,6 +144,7 @@
       }
       dd {
         padding-left: calc(var(--global--spacing-unit) / 2);
+        font-size: var(--global--font-size-md);
       }
     }
     div {
@@ -155,8 +156,10 @@
     &--org {
       dd {
         padding-left: 0 !important;
-
-        font-style: italic;
+        h4 {
+          font-size: var(--global--font-size-md);
+          font-style: italic;
+        }
       }
     }
     p a.more-link {

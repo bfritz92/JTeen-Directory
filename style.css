@@ -2035,6 +2035,7 @@ input[type="reset"]:disabled,
 
 .search-filter-result-item .resource--info dl dd {
   padding-left: calc(var(--global--spacing-unit) / 2);
+  font-size: var(--global--font-size-md);
 }
 
 .search-filter-result-item .resource--info div {
@@ -2046,6 +2047,10 @@ input[type="reset"]:disabled,
 
 .search-filter-result-item .resource--info--org dd {
   padding-left: 0 !important;
+}
+
+.search-filter-result-item .resource--info--org dd h4 {
+  font-size: var(--global--font-size-md);
   font-style: italic;
 }
 
