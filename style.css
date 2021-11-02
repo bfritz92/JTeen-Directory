@@ -2171,6 +2171,11 @@ form.searchandfilter ul li.sf-field-post-meta-time_of_year ul li.sf-option-activ
   background-color: #fff;
 }
 
+form.searchandfilter ul li.sf-field-reset a {
+  color: #fff;
+  text-align: right;
+}
+
 li.sf-level-0.sf-item-0 {
   display: none;
 }
