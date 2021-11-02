@@ -2083,6 +2083,10 @@ input[type="reset"]:disabled,
   font-size: var(--global--font-size-xs);
 }
 
+form.searchandfilter ul li li {
+  padding: 0;
+}
+
 form.searchandfilter ul li h4 {
   font-size: var(--heading--font-size-h4);
   border-bottom: solid var(--global--color-white) 2px;

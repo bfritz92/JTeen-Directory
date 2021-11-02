@@ -190,6 +190,9 @@
 form.searchandfilter {
   ul {
     li {
+      li {
+        padding: 0;
+      }
       h4 {
         font-size: var(--heading--font-size-h4);
         border-bottom: solid var(--global--color-white) 2px;
