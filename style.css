@@ -2045,7 +2045,7 @@ input[type="reset"]:disabled,
 }
 
 .search-filter-result-item .resource--info--org dd {
-  padding-left: 0;
+  padding-left: 0 !important;
   font-style: italic;
 }
 
