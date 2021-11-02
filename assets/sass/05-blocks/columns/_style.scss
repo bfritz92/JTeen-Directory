@@ -176,6 +176,20 @@
 }
 
 //search bar
+.searchandfilter {
+  ul {
+    li {
+      &.sf-field-search {
+        label {
+          width: 99%;
+          input {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
 .sf-field-post-meta-genders_served,
 .sf-field-post-meta-time_of_year {
   ul {
