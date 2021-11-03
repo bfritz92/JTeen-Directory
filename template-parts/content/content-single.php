@@ -17,7 +17,7 @@
 		
 	</header><!-- .entry-header -->
 
-	<div class="entry-content">
+	<div class="entry-content search-filter-result-item">
 		
 		<img class="resource--img aligncenter" src="<?php the_field ('logo'); ?>">
 		<div class="resource--info">
