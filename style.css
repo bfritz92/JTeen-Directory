@@ -710,7 +710,7 @@ template {
 :root {
   --responsive--spacing-horizontal: (--global--spacing-horizontal);
   --responsive--aligndefault-width: calc(
-    100vw - var(--responsive--spacing-horizontal)
+    100vw - calc(var(--responsive--spacing-horizontal) / 2)
   );
   --responsive--alignwide-width: calc(
     100vw - var(--responsive--spacing-horizontal)
