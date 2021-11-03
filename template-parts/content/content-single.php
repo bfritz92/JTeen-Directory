@@ -45,6 +45,7 @@
 			<h4 class="tags--title"><?php the_field ('time_of_year'); ?></h4>
 			<h4 class="tags--title"><?php the_field ('genders_served'); ?></h4>
 		</div>
+		<br />
 		<?php the_field ('content'); ?>
 		<?php the_content(); ?>
 		<div class="resource--register">
