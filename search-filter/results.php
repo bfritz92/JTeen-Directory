@@ -54,7 +54,7 @@ if ( $query->have_posts() )
 		$query->the_post();
 		
 		?>
-		<div class='search-filter-result-item'>
+		<div class="search-filter-result-item">
 				<img class="resource--img" src="<?php the_field ('logo'); ?>">
 				<div class="resource--info">
 					<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
