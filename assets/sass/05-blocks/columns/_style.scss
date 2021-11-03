@@ -122,9 +122,11 @@
   flex-wrap: wrap;
   align-items: start;
   gap: var(--global--spacing-unit);
+  justify-content: center;
   img {
     flex-basis: 30%;
     max-width: 175px;
+    margin: 0;
   }
   h2 {
     color: var(--global--color-blue);
@@ -134,6 +136,7 @@
   .resource--info {
     flex-basis: 60%;
     flex-grow: 2;
+    margin: 0;
     h2 a {
       color: var(--global--color--blue);
       padding-bottom: var(--global--spacing-unit);
