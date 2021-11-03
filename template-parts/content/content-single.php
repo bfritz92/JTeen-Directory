@@ -22,18 +22,8 @@
 	<div class="entry-content">
 		
 		<img class="resource--img aligncenter" src="<?php the_field ('logo'); ?>">
-		<?php
-		the_content();
-
-		wp_link_pages(
-			array(
-				'before'   => '<nav class="page-links" aria-label="' . esc_attr__( 'Page', 'twentytwentyone' ) . '">',
-				'after'    => '</nav>',
-				/* translators: %: Page number. */
-				'pagelink' => esc_html__( 'Page %', 'twentytwentyone' ),
-			)
-		);
-		?>
+	
+		<h2><?php the_title(); ?></h2>
 		<div class="tags">
 			<h4 class="tags--title"><?php the_field ('category'); ?></h4>
 			<h4 class="tags--title"><?php the_field ('time_of_year'); ?></h4>
@@ -57,6 +47,7 @@
 			</div>
 		</dl>
 		<?php the_field ('content'); ?>
+		<?php the_content(); ?>
 		<div class="resource--register">
 			<a href="<?php the_field ('website'); ?>">Register Now</a>
 		</div>
