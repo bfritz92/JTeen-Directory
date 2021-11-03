@@ -20,7 +20,7 @@
 	<div class="entry-content">
 		
 		<img class="resource--img aligncenter" src="<?php the_field ('logo'); ?>">
-	
+		<div class="resource--info">
 		<h2><?php the_title(); ?></h2>
 		<div class="tags">
 			<h4 class="tags--title"><?php the_field ('category'); ?></h4>
@@ -48,6 +48,7 @@
 		<?php the_content(); ?>
 		<div class="resource--register">
 			<a href="<?php the_field ('website'); ?>">Register Now</a>
+		</div>
 		</div>
 	</div><!-- .entry-content -->
 
