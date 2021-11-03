@@ -22,11 +22,7 @@
 		<img class="resource--img aligncenter" src="<?php the_field ('logo'); ?>">
 		<div class="resource--info">
 		<h2><?php the_title(); ?></h2>
-		<div class="tags">
-			<h4 class="tags--title"><?php the_field ('category'); ?></h4>
-			<h4 class="tags--title"><?php the_field ('time_of_year'); ?></h4>
-			<h4 class="tags--title"><?php the_field ('genders_served'); ?></h4>
-		</div>
+		
 		<dl class="resource--info--list">
 			<div class="resource--info--org">
 				<dd><h4><?php the_field ('presenting_org'); ?></h4></dd>
@@ -44,6 +40,11 @@
 				<dd><p><?php the_field ('website'); ?>, <?php the_field ('contact_email'); ?></p></dd>
 			</div>
 		</dl>
+		<div class="tags">
+			<h4 class="tags--title"><?php the_field ('category'); ?></h4>
+			<h4 class="tags--title"><?php the_field ('time_of_year'); ?></h4>
+			<h4 class="tags--title"><?php the_field ('genders_served'); ?></h4>
+		</div>
 		<?php the_field ('content'); ?>
 		<?php the_content(); ?>
 		<div class="resource--register">
