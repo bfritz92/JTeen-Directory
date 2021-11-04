@@ -834,13 +834,7 @@ template {
 
 .site-header {
   padding-top: calc(0.75 * var(--global--spacing-vertical));
-  padding-bottom: calc(2 * var(--global--spacing-vertical));
-}
-
-@media only screen and (min-width: 482px) {
-  .site-header {
-    padding-bottom: calc(3 * var(--global--spacing-vertical));
-  }
+  padding-bottom: var(--global--spacing-vertical);
 }
 
 /**
