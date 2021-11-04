@@ -13,7 +13,7 @@
   }
 
   @include media(mobile) {
-    padding-top: calc(var(--global--spacing-vertical) / 0.75); // 40px
+    padding-top: calc(var(--global--spacing-vertical) / 2); // 40px
   }
 
   @include media(desktop) {
