@@ -369,6 +369,8 @@
         > a {
           padding-left: var(--primary-nav--padding);
           padding-right: var(--primary-nav--padding);
+          text-transform: uppercase;
+          color: var(--global--color-gray);
 
           + .sub-menu-toggle {
             margin-left: calc(5px - var(--primary-nav--padding));
