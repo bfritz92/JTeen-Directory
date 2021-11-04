@@ -371,7 +371,7 @@
           padding-right: var(--primary-nav--padding);
           text-transform: uppercase;
           color: var(--global--color-gray);
-
+          font-size: var(--global--font-size-sm);
           + .sub-menu-toggle {
             margin-left: calc(5px - var(--primary-nav--padding));
           }
