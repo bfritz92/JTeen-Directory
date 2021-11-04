@@ -234,18 +234,6 @@
   padding-right: 10vw;
 }
 
-.hide-for-mobile {
-  display: none;
-  @media only screen and (min-width: $tablet) {
-    display: block;
-  }
-}
-.mobile-only {
-  display: block;
-  @media only screen and (min-width: $tablet) {
-    display: none;
-  }
-}
 .hide {
   display: none;
 }
