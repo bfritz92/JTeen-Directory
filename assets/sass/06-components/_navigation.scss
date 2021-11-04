@@ -80,9 +80,7 @@
   position: absolute;
   top: var(--global--admin-bar--height);
   right: 0;
-  color: var(--global--color-gray);
-  font-size: var(--global--font-size-sm);
-  text-decoration: uppercase;
+
   line-height: 1.15;
   margin-top: 0;
   margin-bottom: 0;
@@ -96,6 +94,7 @@
     right: 0;
     bottom: 0;
     left: 0;
+
     // Height of the menu-button-container using font size, line height, and total padding, plus 5px so the focus of the first item is visible.
     padding-top: calc(
       var(--button--line-height) * var(--primary-nav--font-size-button) + 42px +
@@ -463,7 +462,7 @@
         font-size: var(--primary-nav--font-size-sub-menu-mobile);
         font-style: var(--primary-nav--font-style-sub-menu-mobile);
         color: var(--global--color-gray);
-        text-decoration: uppercase;
+        text-transform: uppercase;
 
         @include media(mobile) {
           font-size: var(--primary-nav--font-size-sub-menu);

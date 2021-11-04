@@ -4942,10 +4942,6 @@ h1.page-title {
   position: absolute;
   top: var(--global--admin-bar--height);
   right: 0;
-  color: var(--global--color-gray);
-  font-size: var(--global--font-size-sm);
-  -webkit-text-decoration: uppercase;
-          text-decoration: uppercase;
   line-height: 1.15;
   margin-top: 0;
   margin-bottom: 0;
@@ -5313,8 +5309,7 @@ h1.page-title {
   font-size: var(--primary-nav--font-size-sub-menu-mobile);
   font-style: var(--primary-nav--font-style-sub-menu-mobile);
   color: var(--global--color-gray);
-  -webkit-text-decoration: uppercase;
-          text-decoration: uppercase;
+  text-transform: uppercase;
 }
 
 @media only screen and (min-width: 482px) {
