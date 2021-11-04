@@ -4335,7 +4335,7 @@ body:not(.single) .site-main > article:last-of-type .entry-footer {
  */
 .post-thumbnail {
   text-align: center;
-  margin-bottom: -40px;
+  margin: 0 0 -40px 0;
   -o-object-fit: cover;
      object-fit: cover;
 }

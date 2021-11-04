@@ -145,9 +145,8 @@ body:not(.single) .site-main > article:last-of-type .entry-footer {
 .post-thumbnail {
   @extend %responsive-alignfull-width;
   text-align: center;
-  margin-bottom: -40px;
+  margin: 0 0 -40px 0;
   object-fit: cover;
-
   .entry-header &,
   .singular & {
     @extend %responsive-alignwide-width-nested;
