@@ -4338,7 +4338,6 @@ body:not(.single) .site-main > article:last-of-type .entry-footer {
   margin-bottom: -40px;
   -o-object-fit: cover;
      object-fit: cover;
-  height: 250px;
 }
 
 .post-thumbnail .wp-post-image {
@@ -4347,6 +4346,7 @@ body:not(.single) .site-main > article:last-of-type .entry-footer {
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
+  height: 250px;
 }
 
 /**
