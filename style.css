@@ -4338,8 +4338,7 @@ body:not(.single) .site-main > article:last-of-type .entry-footer {
   margin-bottom: -40px;
   -o-object-fit: cover;
      object-fit: cover;
-  max-height: 250px;
-  min-height: 250px;
+  height: 250px;
 }
 
 .post-thumbnail .wp-post-image {
