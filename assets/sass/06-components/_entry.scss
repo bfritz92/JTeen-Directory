@@ -147,6 +147,7 @@ body:not(.single) .site-main > article:last-of-type .entry-footer {
   text-align: center;
   margin: 0 0 -40px 0 !important;
   object-fit: cover;
+  width: 100%;
   .entry-header &,
   .singular & {
     @extend %responsive-alignwide-width-nested;
@@ -158,9 +159,10 @@ body:not(.single) .site-main > article:last-of-type .entry-footer {
     max-width: 100%;
     margin-left: auto;
     margin-right: auto;
-    height: 250px;
-    //margin-top: calc(2 * var(--global--spacing-vertical));
+    height: 250px !important;
+    object-fit: cover;
   }
+  //margin-top: calc(2 * var(--global--spacing-vertical));
 }
 
 /**
