@@ -784,7 +784,7 @@ template {
   }
 }
 
-.alignwide [class*="inner-container"] > .alignwide, .alignfull [class*="inner-container"] > .alignwide, .entry-header .post-thumbnail,
+.alignfull [class*="inner-container"] > .alignwide, .entry-header .post-thumbnail,
 .singular .post-thumbnail {
   margin-left: auto;
   margin-right: auto;
@@ -3858,6 +3858,9 @@ table.wp-calendar-table caption {
   clear: both;
 }
 
+/*@at-root [class*="inner-container"] > .alignwide {
+	@extend %responsive-alignwide-width-nested;
+}*/
 /**
  * .alignfull
  */
