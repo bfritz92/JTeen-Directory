@@ -143,7 +143,7 @@ body:not(.single) .site-main > article:last-of-type .entry-footer {
  */
 
 .post-thumbnail {
-  @extend %responsive-alignfull-width;
+  //@extend %responsive-alignfull-width;
   text-align: center;
   margin: 0 0 -40px 0 !important;
   object-fit: cover;

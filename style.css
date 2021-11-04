@@ -776,7 +776,7 @@ template {
 }
 
 @media only screen and (min-width: 482px) {
-  .full-max-width, .alignfull, .post-thumbnail {
+  .full-max-width, .alignfull {
     max-width: var(--responsive--alignfull-width);
     width: auto;
     margin-left: auto;
