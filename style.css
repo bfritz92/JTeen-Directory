@@ -2123,8 +2123,6 @@ form.searchandfilter ul li.sf-field-post-meta-grades_served .sf-meta-range.sf-me
           order: 2;
   font-size: var(--global--font-size-lg);
   font-weight: 700;
-  -ms-flex-preferred-size: 7%;
-      flex-basis: 7%;
 }
 
 form.searchandfilter ul li.sf-field-post-meta-grades_served .sf-meta-range.sf-meta-range-slider span.sf-range-min {
