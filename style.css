@@ -2085,7 +2085,7 @@ input[type="reset"]:disabled,
   padding: 10px 20px;
   font-size: var(--global--font-size-sm);
   word-break: keep-all;
-  font-size: var(--global--font-size-xs);
+  font-size: 0.9rem;
 }
 
 form.searchandfilter ul li li {
@@ -2123,6 +2123,8 @@ form.searchandfilter ul li.sf-field-post-meta-grades_served .sf-meta-range.sf-me
           order: 2;
   font-size: var(--global--font-size-lg);
   font-weight: 700;
+  -ms-flex-preferred-size: 7%;
+      flex-basis: 7%;
 }
 
 form.searchandfilter ul li.sf-field-post-meta-grades_served .sf-meta-range.sf-meta-range-slider span.sf-range-min {
@@ -4779,7 +4781,7 @@ h1.page-title {
   display: -ms-flexbox;
   display: flex;
   margin-left: auto;
-  padding: calc(var(--button--padding-vertical) - (0.25 * var(--global--spacing-unit))) calc(0.5 * var(--button--padding-horizontal));
+  padding: calc( var(--button--padding-vertical) - (0.25 * var(--global--spacing-unit))) calc(0.5 * var(--button--padding-horizontal));
   font-size: var(--primary-nav--font-size-button);
   font-weight: var(--primary-nav--font-weight-button);
   background-color: transparent;
@@ -4855,13 +4857,13 @@ h1.page-title {
   right: 0;
   bottom: 0;
   left: 0;
-  padding-top: calc(var(--button--line-height) * var(--primary-nav--font-size-button) + 42px + 5px);
+  padding-top: calc( var(--button--line-height) * var(--primary-nav--font-size-button) + 42px + 5px);
   padding-left: var(--global--spacing-unit);
   padding-right: var(--global--spacing-unit);
   padding-bottom: var(--global--spacing-horizontal);
   background-color: var(--global--color-background);
-  -webkit-transition: all .15s ease-in-out;
-  transition: all .15s ease-in-out;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
   -webkit-transform: translateY(var(--global--spacing-vertical));
           transform: translateY(var(--global--spacing-vertical));
 }
@@ -5267,6 +5269,10 @@ h1.page-title {
   to {
     opacity: 1;
   }
+}
+
+.custom-logo-link .custom-logo {
+  max-width: 150px;
 }
 
 .footer-navigation {

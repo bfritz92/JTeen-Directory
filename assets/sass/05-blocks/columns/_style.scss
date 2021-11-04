@@ -185,7 +185,7 @@
     padding: 10px 20px;
     font-size: var(--global--font-size-sm);
     word-break: keep-all;
-    font-size: var(--global--font-size-xs);
+    font-size: 0.9rem;
   }
 }
 
@@ -221,6 +221,7 @@ form.searchandfilter {
           order: 2;
           font-size: var(--global--font-size-lg);
           font-weight: 700;
+          flex-basis: 7%;
           &.sf-range-min {
             padding-left: calc(2 * var(--global--spacing-unit));
           }
