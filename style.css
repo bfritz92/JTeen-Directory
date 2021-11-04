@@ -4341,7 +4341,7 @@ body:not(.single) .site-main > article:last-of-type .entry-footer {
   margin: 0 0 -40px 0 !important;
   -o-object-fit: cover;
      object-fit: cover;
-  width: 100%;
+  width: 100% !important;
 }
 
 .post-thumbnail .wp-post-image {
