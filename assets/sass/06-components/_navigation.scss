@@ -372,6 +372,12 @@
           text-transform: uppercase;
           color: var(--global--color-gray);
           font-size: var(--global--font-size-sm);
+          letter-spacing: 0.052rem;
+          &:hover,
+          &:focus,
+          &:active {
+            color: var(--global--color-primary);
+          }
           + .sub-menu-toggle {
             margin-left: calc(5px - var(--primary-nav--padding));
           }
