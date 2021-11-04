@@ -755,7 +755,7 @@ template {
  * Extends
  */
 .default-max-width, .entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.wp-block-separator):not(.woocommerce),
-*[class*="inner-container"] > *:not(.entry-content):not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.wp-block-separator):not(.woocommerce), .entry-content .wp-audio-shortcode, .post-thumbnail {
+*[class*="inner-container"] > *:not(.entry-content):not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.wp-block-separator):not(.woocommerce), .entry-content .wp-audio-shortcode {
   max-width: var(--responsive--aligndefault-width);
   margin-left: auto;
   margin-right: auto;
@@ -776,7 +776,7 @@ template {
 }
 
 @media only screen and (min-width: 482px) {
-  .full-max-width, .alignfull {
+  .full-max-width, .alignfull, .post-thumbnail {
     max-width: var(--responsive--alignfull-width);
     width: auto;
     margin-left: auto;
@@ -826,7 +826,6 @@ template {
 .site-main,
 .widget-area,
 .site-footer {
-  padding-top: var(--global--spacing-vertical);
   padding-bottom: var(--global--spacing-vertical);
   margin-left: auto;
   margin-right: auto;
@@ -4336,6 +4335,10 @@ body:not(.single) .site-main > article:last-of-type .entry-footer {
  */
 .post-thumbnail {
   text-align: center;
+  margin-bottom: -40px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 250px;
 }
 
 .post-thumbnail .wp-post-image {
