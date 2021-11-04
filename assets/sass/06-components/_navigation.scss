@@ -80,8 +80,9 @@
   position: absolute;
   top: var(--global--admin-bar--height);
   right: 0;
-  color: var(--primary-nav--color-text);
-  font-size: var(--primary-nav--font-size);
+  color: var(--global--color-gray);
+  font-size: var(--global--font-size-sm);
+  text-decoration: uppercase;
   line-height: 1.15;
   margin-top: 0;
   margin-bottom: 0;
