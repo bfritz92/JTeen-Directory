@@ -461,6 +461,8 @@
         display: block;
         font-size: var(--primary-nav--font-size-sub-menu-mobile);
         font-style: var(--primary-nav--font-style-sub-menu-mobile);
+        color: var(--global--color-gray);
+        text-decoration: uppercase;
 
         @include media(mobile) {
           font-size: var(--primary-nav--font-size-sub-menu);

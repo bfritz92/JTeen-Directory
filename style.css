@@ -175,7 +175,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
   /* Colors */
   --global--color-black: #000;
   --global--color-dark-gray: #28303d;
-  --global--color-gray: #747474;
+  --global--color-gray: #999;
   --global--color-light-gray: #f0f0f0;
   --global--color-green: #d1e4dd;
   --global--color-blue: #105a97;
@@ -5310,6 +5310,9 @@ h1.page-title {
   display: block;
   font-size: var(--primary-nav--font-size-sub-menu-mobile);
   font-style: var(--primary-nav--font-style-sub-menu-mobile);
+  color: var(--global--color-gray);
+  -webkit-text-decoration: uppercase;
+          text-decoration: uppercase;
 }
 
 @media only screen and (min-width: 482px) {
