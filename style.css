@@ -2044,7 +2044,7 @@ input[type="reset"]:disabled,
 .search-filter-result-item .resource--info dl div dt a,
 .search-filter-result-item .resource--info dl div dt strong,
 .search-filter-result-item .resource--info dl div dt p {
-  line-height: 0.75;
+  line-height: 1;
 }
 
 .search-filter-result-item .resource--info div {
@@ -2061,6 +2061,10 @@ input[type="reset"]:disabled,
 .search-filter-result-item .resource--info--org dd h4 {
   font-size: var(--global--font-size-md);
   font-style: italic;
+}
+
+.search-filter-result-item .resource--info p {
+  line-height: 1;
 }
 
 .search-filter-result-item .resource--info p a.more-link {
