@@ -229,8 +229,9 @@ form.searchandfilter {
     }
     li.sf-field-post-meta-grades_served {
       .sf-meta-range.sf-meta-range-slider {
-        display: flex;
-        flex-wrap: wrap;
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr auto auto auto;
         span {
           order: 2;
           font-size: var(--global--font-size-lg);
@@ -241,6 +242,8 @@ form.searchandfilter {
         }
         div.meta-slider {
           min-width: 70%;
+          max-width: 100%;
+          width: 100%;
         }
       }
     }
