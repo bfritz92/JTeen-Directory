@@ -2036,6 +2036,17 @@ input[type="reset"]:disabled,
   font-size: var(--global--font-size-sm);
 }
 
+.search-filter-result-item .resource--info dl div dd h4,
+.search-filter-result-item .resource--info dl div dd a,
+.search-filter-result-item .resource--info dl div dd strong,
+.search-filter-result-item .resource--info dl div dd p,
+.search-filter-result-item .resource--info dl div dt h4,
+.search-filter-result-item .resource--info dl div dt a,
+.search-filter-result-item .resource--info dl div dt strong,
+.search-filter-result-item .resource--info dl div dt p {
+  line-height: 0.75;
+}
+
 .search-filter-result-item .resource--info div {
   display: -webkit-box;
   display: -ms-flexbox;

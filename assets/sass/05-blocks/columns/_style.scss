@@ -149,6 +149,17 @@
         padding-left: calc(var(--global--spacing-unit) / 2);
         font-size: var(--global--font-size-sm);
       }
+      div {
+        dd,
+        dt {
+          h4,
+          a,
+          strong,
+          p {
+            line-height: 0.75;
+          }
+        }
+      }
     }
     div {
       display: flex;
