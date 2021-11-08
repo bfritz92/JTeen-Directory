@@ -132,7 +132,9 @@
     color: var(--global--color-blue);
     font-size: var(--heading--font-size-h3);
   }
-
+  .resource--img {
+    max-height: 350px;
+  }
   .resource--info {
     flex-basis: 60%;
     flex-grow: 2;

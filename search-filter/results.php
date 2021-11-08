@@ -81,7 +81,7 @@ if ( $query->have_posts() )
 						<h4 class="tags--title"><?php the_field ('time_of_year'); ?></h4>
 						<h4 class="tags--title"><?php the_field ('genders_served'); ?></h4>
 					</div>
-					<p><br /><?php the_excerpt(); ?></p>
+					<p><br /><?php the_field ('content'); ?></p>
 					
 				</div>
 				<hr />
