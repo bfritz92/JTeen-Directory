@@ -761,7 +761,7 @@ template {
   margin-right: auto;
 }
 
-.wide-max-width, .front-page--search form, .alignwide, .site-header, .site-footer, .post-navigation, .pagination,
+.wide-max-width, .front-page--search form.searchandfilter, .alignwide, .site-header, .site-footer, .post-navigation, .pagination,
 .comments-pagination, .widget-area {
   max-width: var(--responsive--alignwide-width);
   margin-left: auto;
@@ -1967,11 +1967,11 @@ input[type="reset"]:disabled,
   color: #fff;
 }
 
-.front-page--search form ul {
+.front-page--search form.searchandfilter ul {
   padding: calc(var(--global--spacing-unit) / 2) var(--global--spacing-unit);
 }
 
-.front-page--search form ul li ul {
+.front-page--search form.searchandfilter ul li ul {
   padding: 0;
 }
 

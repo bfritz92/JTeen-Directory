@@ -99,7 +99,7 @@
 .front-page--search {
   background-color: var(--global--color-blue);
   color: #fff;
-  form {
+  form.searchandfilter {
     @extend %responsive-alignwide-width;
     ul {
       padding: calc(var(--global--spacing-unit) / 2) var(--global--spacing-unit);
