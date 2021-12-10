@@ -96,15 +96,10 @@
   }
 }
 
-.wp-block-columns.front-page--search {
+.front-page--search {
   div.wp-block-column:first-child {
     background-color: var(--global--color-blue);
     color: #fff;
-    @include media(laptop) {
-      position: sticky;
-      top: 65px;
-      height: min-content;
-    }
     form {
       ul {
         padding: calc(var(--global--spacing-unit) / 2)
