@@ -97,16 +97,13 @@
 }
 
 .front-page--search {
-  div.wp-block-column:first-child {
-    background-color: var(--global--color-blue);
-    color: #fff;
-    form {
-      ul {
-        padding: calc(var(--global--spacing-unit) / 2)
-          var(--global--spacing-unit);
-        li ul {
-          padding: 0;
-        }
+  background-color: var(--global--color-blue);
+  color: #fff;
+  form {
+    ul {
+      padding: calc(var(--global--spacing-unit) / 2) var(--global--spacing-unit);
+      li ul {
+        padding: 0;
       }
     }
   }
