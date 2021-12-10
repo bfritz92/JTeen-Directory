@@ -761,7 +761,7 @@ template {
   margin-right: auto;
 }
 
-.wide-max-width, .alignwide, .site-header, .site-footer, .post-navigation, .pagination,
+.wide-max-width, .front-page--search form, .alignwide, .site-header, .site-footer, .post-navigation, .pagination,
 .comments-pagination, .widget-area {
   max-width: var(--responsive--alignwide-width);
   margin-left: auto;
