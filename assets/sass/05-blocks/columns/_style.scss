@@ -99,10 +99,13 @@
 .front-page--search {
   background-color: var(--global--color-blue);
   color: #fff;
-  form.searchandfilter#search-filter-form-50 {
+  form.searchandfilter#search-filter-form-488 {
     @extend %responsive-alignwide-width;
     ul {
       padding: calc(var(--global--spacing-unit) / 2) var(--global--spacing-unit);
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+      grid-gap: var(--global--spacing-unit);
       li ul {
         padding: 0;
       }
