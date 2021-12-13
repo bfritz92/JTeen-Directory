@@ -111,7 +111,7 @@
         padding: 0;
         display: flex;
         flex-wrap: wrap;
-        gap: var(--global--spacing-unit);
+        gap: calc(var(--global--spacing-unit) / 2);
       }
     }
   }

@@ -1984,7 +1984,7 @@ input[type="reset"]:disabled,
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  gap: var(--global--spacing-unit);
+  gap: calc(var(--global--spacing-unit) / 2);
 }
 
 .search-filter-result-item {
