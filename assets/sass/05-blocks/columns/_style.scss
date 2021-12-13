@@ -108,6 +108,8 @@
       grid-gap: var(--global--spacing-unit);
       li ul {
         padding: 0;
+        display: grid;
+        flex-wrap: wrap;
       }
     }
   }

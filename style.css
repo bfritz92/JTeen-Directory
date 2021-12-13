@@ -1978,6 +1978,10 @@ input[type="reset"]:disabled,
 
 .front-page--search form.searchandfilter#search-filter-form-488 ul li ul {
   padding: 0;
+  display: -ms-grid;
+  display: grid;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .search-filter-result-item {
