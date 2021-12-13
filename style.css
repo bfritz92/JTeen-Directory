@@ -1976,12 +1976,15 @@ input[type="reset"]:disabled,
   grid-gap: var(--global--spacing-unit);
 }
 
-.front-page--search form.searchandfilter#search-filter-form-488 ul li ul {
+.front-page--search form.searchandfilter#search-filter-form-488 ul li.sf-field-post-meta-time_of_year ul,
+.front-page--search form.searchandfilter#search-filter-form-488 ul li.sf-field-post-meta-gender-identity ul {
   padding: 0;
-  display: -ms-grid;
-  display: grid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  gap: var(--global--spacing-unit);
 }
 
 .search-filter-result-item {
