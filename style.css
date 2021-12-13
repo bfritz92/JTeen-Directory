@@ -1977,7 +1977,7 @@ input[type="reset"]:disabled,
 }
 
 .front-page--search form.searchandfilter#search-filter-form-488 ul li.sf-field-post-meta-time_of_year ul,
-.front-page--search form.searchandfilter#search-filter-form-488 ul li.sf-field-post-meta-gender_identity ul {
+.front-page--search form.searchandfilter#search-filter-form-488 ul li.sf-field-post-meta-genders_served ul {
   padding: 0;
   display: -webkit-box;
   display: -ms-flexbox;
