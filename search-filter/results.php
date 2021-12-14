@@ -81,8 +81,8 @@ if ( $query->have_posts() )
 						<h4 class="tags--title"><?php the_field ('time_of_year'); ?></h4>
 						<h4 class="tags--title"><?php the_field ('genders_served'); ?></h4>
 					</div>
-					<p><br /><?php the_field ('content'); ?></p>
-					
+					<!--<p><br /><?php the_field ('content'); ?></p>-->
+					<p><br /><?php $excerpt = wp_trim_words( get_field('content' ), $num_words = 50, $more = '...' ); echo $excerpt; ?></p>
 				</div>
 				<hr />
 			</div>

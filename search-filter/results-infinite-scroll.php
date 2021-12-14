@@ -65,8 +65,8 @@ if ( $query->have_posts() )
 							<dd><p class="resource--info--entry"><?php the_field ('website'); ?>, <?php the_field ('contact_email'); ?></p></dd>
 						</div>
 					</dl>
-					<p><br /><?php the_excerpt(); ?></p>
-					
+					<!--<p><br /><?php the_field ('content'); ?></p>-->
+					<p><br /><?php $excerpt = wp_trim_words( get_field('content' ), $num_words = 50, $more = '...' ); echo $excerpt; ?></p>
 					<div class="resource--register">
 						<a href="<?php the_field ('website'); ?>">Register Now</a>
 					</div>
