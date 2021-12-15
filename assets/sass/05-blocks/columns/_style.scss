@@ -192,7 +192,7 @@
 .tags {
   display: flex;
   justify-content: start;
-  gap: calc(var(--global--spacing-unit) / 2);
+  gap: var(--global--spacing-unit);
   flex-wrap: wrap;
   padding-top: var(--global--spacing-unit);
   &--title {
