@@ -2093,9 +2093,7 @@ input[type="reset"]:disabled,
 }
 
 .tags--title {
-  color: var(--global--color-white);
-  background-color: var(--global--color-blue);
-  padding: 10px 20px;
+  color: var(--global--color-blue);
   font-size: var(--global--font-size-sm);
   word-break: keep-all;
   font-size: 0.9rem;
