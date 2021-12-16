@@ -68,12 +68,10 @@ if ( $query->have_posts() )
 							<dd><p><?php the_field ('grades_served'); ?></p></dd>
 						</div>
 						<div  class="resource--info--contact">
-							<dt><p><strong >Contact:</strong></p></dt>
-							<dd><p ><?php the_field ('contact_name'); ?>, <a href="mailto: <?php the_field ('contact_email'); ?>"><?php the_field ('contact_email'); ?></a></p></dd>
+							<dt><a href="mailto: <?php the_field ('contact_email'); ?>"><strong >Contact</strong></a></dt>
 						</div>
 						<div class="resource--info--website">
-							<dt><p><strong>Website:</strong></p></dt>
-							<dd><p><a href="<?php the_field ('website'); ?>"><?php the_field ('website'); ?></a></p></dd>
+							<dt><a href="<?php the_field ('website'); ?>"><strong>Website</strong></a></dt>
 						</div>
 					</dl>
 					<div class="tags">
