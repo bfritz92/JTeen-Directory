@@ -71,9 +71,6 @@ if ( $query->have_posts() )
 							<dt><a href="mailto: <?php the_field ('contact_email'); ?>"><strong >Contact</strong></a></dt>
 							<dd><a href="<?php the_field ('website'); ?>"><strong>Website</strong></a></dd>
 						</div>
-						<div class="resource--info--website">
-							
-						</div>
 					</dl>
 					<div class="tags">
 						<h4 class="tags--title"><?php the_field ('category'); ?></h4>
