@@ -154,13 +154,13 @@
       div {
         dd,
         dt {
+          padding-right: calc((var(--global--spacing-horizontal)) / 2);
           h4,
           a,
           strong,
           p {
             line-height: 1;
             font-family: "Montserrat";
-            padding-right: calc((var(--global--spacing-horizontal)) / 2);
           }
         }
       }

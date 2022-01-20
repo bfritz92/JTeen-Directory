@@ -2014,6 +2014,11 @@ input[type="reset"]:disabled,
   font-size: var(--global--font-size-sm);
 }
 
+.search-filter-result-item .resource--info dl div dd,
+.search-filter-result-item .resource--info dl div dt {
+  padding-right: calc((var(--global--spacing-horizontal)) / 2);
+}
+
 .search-filter-result-item .resource--info dl div dd h4,
 .search-filter-result-item .resource--info dl div dd a,
 .search-filter-result-item .resource--info dl div dd strong,
@@ -2024,7 +2029,6 @@ input[type="reset"]:disabled,
 .search-filter-result-item .resource--info dl div dt p {
   line-height: 1;
   font-family: "Montserrat";
-  padding-right: var(--global--spacing-horizontal);
 }
 
 .search-filter-result-item .resource--info div {
