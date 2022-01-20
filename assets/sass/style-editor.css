@@ -2,40 +2,12 @@
 /**
  * These styles should be loaded by the Block Editor only
  */
-@import url("https://p.typekit.net/p.css?s=1&k=pil2uny&ht=tk&f=30331.30332.30335&a=87372420&app=typekit&e=css");
-@font-face {
-  font-family: "forma-djr-banner";
-  src: url("https://use.typekit.net/af/cfdf43/00000000000000003b9ae4c2/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("woff2"), url("https://use.typekit.net/af/cfdf43/00000000000000003b9ae4c2/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("woff"), url("https://use.typekit.net/af/cfdf43/00000000000000003b9ae4c2/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("opentype");
-  font-display: auto;
-  font-style: normal;
-  font-weight: 500;
-}
-
-@font-face {
-  font-family: "forma-djr-banner";
-  src: url("https://use.typekit.net/af/e072a0/00000000000000003b9ae4c3/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i5&v=3") format("woff2"), url("https://use.typekit.net/af/e072a0/00000000000000003b9ae4c3/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i5&v=3") format("woff"), url("https://use.typekit.net/af/e072a0/00000000000000003b9ae4c3/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i5&v=3") format("opentype");
-  font-display: auto;
-  font-style: italic;
-  font-weight: 500;
-}
-
-@font-face {
-  font-family: "forma-djr-banner";
-  src: url("https://use.typekit.net/af/142ef3/00000000000000003b9ae4c6/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"), url("https://use.typekit.net/af/142ef3/00000000000000003b9ae4c6/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"), url("https://use.typekit.net/af/142ef3/00000000000000003b9ae4c6/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
-  font-display: auto;
-  font-style: normal;
-  font-weight: 700;
-}
-
-.tk-forma-djr-banner {
-  font-family: "forma-djr-banner", sans-serif;
-}
-
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap");
 /* Variables */
 :root {
   /* Font Family */
-  --global--font-primary: "forma-djr-banner", sans-serif;
-  --global--font-secondary: "forma-djr-banner", sans-serif;
+  --global--font-primary: "Montserrat", sans-serif;
+  --global--font-secondary: "Lora", sans-serif;
   /* Font Size */
   --global--font-size-base: 1.25rem;
   --global--font-size-xs: 1rem;
@@ -46,7 +18,7 @@
   --global--font-size-xxl: 4rem;
   --global--font-size-xxxl: 5rem;
   --global--font-size-page-title: var(--global--font-size-lg);
-  --global--letter-spacing: 0.07rem;
+  --global--letter-spacing: normal;
   /* Line Height */
   --global--line-height-body: 1.7;
   --global--line-height-heading: 1.3;
@@ -59,8 +31,8 @@
   --heading--font-size-h3: calc(1.25 * var(--global--font-size-lg));
   --heading--font-size-h2: var(--global--font-size-xl);
   --heading--font-size-h1: var(--global--font-size-page-title);
-  --heading--letter-spacing-h6: 0.05em;
-  --heading--letter-spacing-h5: 0.05em;
+  --heading--letter-spacing-h6: var(--global--letter-spacing);
+  --heading--letter-spacing-h5: var(--global--letter-spacing);
   --heading--letter-spacing-h4: var(--global--letter-spacing);
   --heading--letter-spacing-h3: var(--global--letter-spacing);
   --heading--letter-spacing-h2: var(--global--letter-spacing);
@@ -87,7 +59,8 @@
   --global--color-gray: #999;
   --global--color-light-gray: #f0f0f0;
   --global--color-green: #d1e4dd;
-  --global--color-blue: #105a97;
+  --global--color-blue: #000066;
+  --global--color--light-blue: #4779e6;
   --global--color-purple: #d1d1e4;
   --global--color-red: #e4d1d1;
   --global--color-orange: #e4dad1;
