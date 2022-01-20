@@ -160,7 +160,7 @@
           p {
             line-height: 1;
             font-family: "Montserrat";
-            padding-right: var(--global--spacing-horizontal);
+            padding-right: calc((var(--global--spacing-horizontal)) / 2);
           }
         }
       }
