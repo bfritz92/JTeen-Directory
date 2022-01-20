@@ -2024,7 +2024,7 @@ input[type="reset"]:disabled,
 .search-filter-result-item .resource--info dl div dt p {
   line-height: 1;
   font-family: "Montserrat";
-  padding-right: calc(2 * (var(--global--spacing-horizontal)));
+  padding-right: var(--global--spacing-horizontal);
 }
 
 .search-filter-result-item .resource--info div {
