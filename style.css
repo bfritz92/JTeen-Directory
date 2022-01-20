@@ -1936,7 +1936,7 @@ input[type="reset"]:disabled,
 }
 
 .front-page--search {
-  background-color: var(--global--color-light-blue);
+  background-color: var(--global--color-blue);
   color: #fff;
 }
 
@@ -2108,6 +2108,7 @@ form.searchandfilter ul li.sf-field-post-meta-grades_served .sf-meta-range.sf-me
           order: 2;
   font-size: var(--global--font-size-lg);
   font-weight: 700;
+  font-family: var(--global--font-primary);
 }
 
 form.searchandfilter ul li.sf-field-post-meta-grades_served .sf-meta-range.sf-meta-range-slider span.sf-range-min {
@@ -2151,7 +2152,7 @@ form.searchandfilter ul li.sf-field-post-meta-time_of_year ul li label {
   padding: 5px 10px;
   word-break: keep-all;
   color: #fff;
-  background-color: var(--global--color-blue);
+  background-color: var(--global--color-light-blue);
 }
 
 form.searchandfilter ul li.sf-field-post-meta-genders_served ul li label:hover, form.searchandfilter ul li.sf-field-post-meta-genders_served ul li label:active,

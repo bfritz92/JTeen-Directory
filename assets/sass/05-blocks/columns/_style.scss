@@ -97,7 +97,7 @@
 }
 
 .front-page--search {
-  background-color: var(--global--color-light-blue);
+  background-color: var(--global--color-blue);
   color: #fff;
   form.searchandfilter#search-filter-form-488 {
     @extend %responsive-alignwide-width;
@@ -236,6 +236,7 @@ form.searchandfilter {
           order: 2;
           font-size: var(--global--font-size-lg);
           font-weight: 700;
+          font-family: var(--global--font-primary);
           &.sf-range-min {
             padding-left: calc(2 * var(--global--spacing-unit));
           }
@@ -271,7 +272,8 @@ form.searchandfilter {
             padding: 5px 10px;
             word-break: keep-all;
             color: #fff;
-            background-color: var(--global--color-blue);
+            background-color: var(--global--color-light-blue);
+
             &:hover,
             &:active {
               color: var(--global--color-blue);
