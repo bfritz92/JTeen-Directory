@@ -2023,6 +2023,7 @@ input[type="reset"]:disabled,
 .search-filter-result-item .resource--info dl div dt strong,
 .search-filter-result-item .resource--info dl div dt p {
   line-height: 1;
+  font-family: "Montserrat";
 }
 
 .search-filter-result-item .resource--info div {
@@ -2152,20 +2153,21 @@ form.searchandfilter ul li.sf-field-post-meta-time_of_year ul li label {
   padding: 5px 10px;
   word-break: keep-all;
   color: #fff;
-  background-color: var(--global--color-light-blue);
+  background-color: var(--global--color-blue);
 }
 
 form.searchandfilter ul li.sf-field-post-meta-genders_served ul li label:hover, form.searchandfilter ul li.sf-field-post-meta-genders_served ul li label:active,
 form.searchandfilter ul li.sf-field-post-meta-time_of_year ul li label:hover,
 form.searchandfilter ul li.sf-field-post-meta-time_of_year ul li label:active {
   color: var(--global--color-blue);
-  background-color: #fff;
+  background-color: var(--global--color-light-blue);
 }
 
 form.searchandfilter ul li.sf-field-post-meta-genders_served ul li.sf-option-active label,
 form.searchandfilter ul li.sf-field-post-meta-time_of_year ul li.sf-option-active label {
   color: var(--global--color-blue);
   background-color: #fff;
+  font-weight: 700;
 }
 
 form.searchandfilter ul li.sf-field-reset a {
