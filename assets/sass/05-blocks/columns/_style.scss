@@ -272,18 +272,19 @@ form.searchandfilter {
             padding: 5px 10px;
             word-break: keep-all;
             color: #fff;
-            background-color: var(--global--color-light-blue);
+            background-color: var(--global--color-blue);
 
             &:hover,
             &:active {
               color: var(--global--color-blue);
-              background-color: #fff;
+              background-color: var(--global--color-light-blue);
             }
           }
           &.sf-option-active {
             label {
               color: var(--global--color-blue);
               background-color: #fff;
+              font-weight: 700;
             }
           }
         }
