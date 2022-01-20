@@ -2023,6 +2023,7 @@ input[type="reset"]:disabled,
 .search-filter-result-item .resource--info dl div dt strong,
 .search-filter-result-item .resource--info dl div dt p {
   line-height: 1;
+  font-family: "Montserrat";
 }
 
 .search-filter-result-item .resource--info div {

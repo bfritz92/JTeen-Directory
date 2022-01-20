@@ -69,7 +69,7 @@ if ( $query->have_posts() )
 						</div>
 						<div  class="resource--info--contact">
 							<dt><a href="mailto: <?php the_field ('contact_email'); ?>"><strong >Contact</strong></a></dt>
-							<dd><a href="<?php the_field ('website'); ?>"><strong>Website</strong></a></dd>
+							<dt><a href="<?php the_field ('website'); ?>"><strong>Website</strong></a></dt>
 						</div>
 					</dl>
 					<div class="tags">
