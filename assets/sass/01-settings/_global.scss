@@ -69,7 +69,7 @@ $baseline-unit: 10px;
   --global--color-light-gray: #f0f0f0;
   --global--color-green: #d1e4dd;
   --global--color-blue: #000066;
-  --global--color--light-blue: #4779e6;
+  --global--color-light-blue: #4779e6;
   --global--color-purple: #d1d1e4;
   --global--color-red: #e4d1d1;
   --global--color-orange: #e4dad1;
@@ -171,7 +171,7 @@ $baseline-unit: 10px;
   --branding--logo--max-height-mobile: 96px;
 
   /* Main navigation */
-  --primary-nav--font-family: var(--global--font-secondary);
+  --primary-nav--font-family: var(--global--font-primary);
   --primary-nav--font-family-mobile: var(--global--font-primary);
   --primary-nav--font-size: var(--global--font-size-sm);
   --primary-nav--font-size-sub-menu: var(--global--font-size-xs);
@@ -180,7 +180,7 @@ $baseline-unit: 10px;
   --primary-nav--font-size-button: var(--global--font-size-xs);
   --primary-nav--font-style: normal;
   --primary-nav--font-style-sub-menu-mobile: normal;
-  --primary-nav--font-weight: normal;
+  --primary-nav--font-weight: 700;
   --primary-nav--font-weight-button: 500;
   --primary-nav--color-link: var(--global--color-gray);
   --primary-nav--color-link-hover: var(--global--color-primary);
