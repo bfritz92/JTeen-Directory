@@ -1966,6 +1966,10 @@ input[type="reset"]:disabled,
   grid-column: 3;
 }
 
+.front-page--search form.searchandfilter#search-filter-form-488 ul li.sf-field-reset a {
+  float: right;
+}
+
 .search-filter-result-item {
   display: -webkit-box;
   display: -ms-flexbox;

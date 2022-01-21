@@ -115,6 +115,9 @@
       }
       li.sf-field-reset {
         grid-column: 3;
+        a {
+          float: right;
+        }
       }
     }
   }
