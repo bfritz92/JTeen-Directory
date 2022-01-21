@@ -1946,7 +1946,8 @@ input[type="reset"]:disabled,
   display: grid;
   -ms-grid-columns: (minmax(340px, 1fr))[auto-fit];
       grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
-  grid-gap: var(--global--spacing-unit);
+  -webkit-column-gap: var(--global--spacing-unit);
+          column-gap: var(--global--spacing-unit);
 }
 
 .front-page--search form.searchandfilter#search-filter-form-488 ul li.sf-field-post-meta-time_of_year ul,
@@ -1958,6 +1959,11 @@ input[type="reset"]:disabled,
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   gap: calc(var(--global--spacing-unit) / 2);
+}
+
+.front-page--search form.searchandfilter#search-filter-form-488 ul li.sf-field-reset {
+  -ms-grid-column: 3;
+  grid-column: 3;
 }
 
 .search-filter-result-item {

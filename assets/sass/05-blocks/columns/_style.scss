@@ -105,13 +105,16 @@
       padding: calc(var(--global--spacing-unit) / 2) var(--global--spacing-unit);
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
-      grid-gap: var(--global--spacing-unit);
+      column-gap: var(--global--spacing-unit);
       li.sf-field-post-meta-time_of_year ul,
       li.sf-field-post-meta-genders_served ul {
         padding: 0;
         display: flex;
         flex-wrap: wrap;
         gap: calc(var(--global--spacing-unit) / 2);
+      }
+      li.sf-field-reset {
+        grid-column: 3;
       }
     }
   }
