@@ -254,8 +254,8 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
   --primary-nav--font-style-sub-menu-mobile: normal;
   --primary-nav--font-weight: 700;
   --primary-nav--font-weight-button: 500;
-  --primary-nav--color-link: var(--global--color-gray);
-  --primary-nav--color-link-hover: var(--global--color-primary);
+  --primary-nav--color-link: var(--global--color-primary);
+  --primary-nav--color-link-hover: var(--global--color-light-blue);
   --primary-nav--color-text: var(--global--color-gray);
   --primary-nav--padding: calc(0.66 * var(--global--spacing-unit));
   --primary-nav--border-color: var(--global--color-primary);
