@@ -242,7 +242,7 @@ if ( ! function_exists( 'twenty_twenty_one_the_posts_navigation' ) ) {
 				'next_text'          => sprintf(
 					'<span class="nav-next-text">%s</span> %s',
 					wp_kses(
-						__( 'Older <span class="nav-short">posts</span>', 'twentytwentyone' ),
+						__( 'More <span class="nav-short">Results</span>', 'twentytwentyone' ),
 						array(
 							'span' => array(
 								'class' => array(),

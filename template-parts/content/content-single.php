@@ -32,12 +32,8 @@
 				<dd><p><?php the_field ('grades_served'); ?></p></dd>
 			</div>
 			<div class="resource--info--contact">
-				<dt><p><strong>Contact:</strong></p></dt>
-				<dd><p><?php the_field ('contact_name'); ?>, <?php the_field ('contact_email'); ?></p></dd>
-			</div>
-			<div class="resource--info--website">
-				<dt><p><strong>Website:</strong></p></dt>
-				<dd><p><?php the_field ('website'); ?>, <?php the_field ('contact_email'); ?></p></dd>
+    			<dt><a href="mailto: <?php the_field ('contact_email'); ?>"><strong >Contact</strong></a></dt>
+				<dt><a href="<?php the_field ('website'); ?>"><strong>Website</strong></a></dt>
 			</div>
 		</dl>
 		<div class="tags">

@@ -36,8 +36,8 @@ if ( $query->have_posts() )
 	
 	<div class="pagination">
 		
-		<div class="nav-previous"><?php next_posts_link( 'Older posts', $query->max_num_pages ); ?></div>
-		<div class="nav-next"><?php previous_posts_link( 'Newer posts' ); ?></div>
+		<div class="nav-previous"><?php next_posts_link( 'More Results', $query->max_num_pages ); ?></div>
+		<div class="nav-next"><?php previous_posts_link( 'Previous Results' ); ?></div>
 		<?php
 			/* example code for using the wp_pagenavi plugin */
 			if (function_exists('wp_pagenavi'))
@@ -69,7 +69,7 @@ if ( $query->have_posts() )
 						</div>
 						<div  class="resource--info--contact">
 							<dt><a href="mailto: <?php the_field ('contact_email'); ?>"><strong >Contact</strong></a></dt>
-							<dd><a href="<?php the_field ('website'); ?>"><strong>Website</strong></a></dd>
+							<dt><a href="<?php the_field ('website'); ?>"><strong>Website</strong></a></dt>
 						</div>
 					</dl>
 					<div class="tags">
@@ -91,8 +91,8 @@ if ( $query->have_posts() )
 	
 	<div class="pagination">
 		
-		<div class="nav-previous"><?php next_posts_link( 'Older posts', $query->max_num_pages ); ?></div>
-		<div class="nav-next"><?php previous_posts_link( 'Newer posts' ); ?></div>
+		<div class="nav-previous"><?php next_posts_link( 'More Results', $query->max_num_pages ); ?></div>
+		<div class="nav-next"><?php previous_posts_link( 'Previous Results' ); ?></div>
 		<?php
 			/* example code for using the wp_pagenavi plugin */
 			if (function_exists('wp_pagenavi'))
