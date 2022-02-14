@@ -101,11 +101,15 @@
   color: #fff;
   form.searchandfilter#search-filter-form-488 {
     @extend %responsive-alignwide-width;
-    ul {
+    ul:not(li.sf-field-post-meta-time_of_year
+        ul, li.sf-field-post-meta-genders_served ul) {
       padding: calc(var(--global--spacing-unit) / 2) var(--global--spacing-unit);
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
-      column-gap: var(--global--spacing-unit);
+      display: flex;
+      flex-wrap: wrap;
+      li {
+        flex: 1 0 30%;
+        min-width: 170px;
+      }
       li.sf-field-post-meta-time_of_year ul,
       li.sf-field-post-meta-genders_served ul {
         padding: 0;
@@ -118,6 +122,9 @@
         a {
           float: right;
         }
+      }
+      li.sf-field-search {
+        min-width: 170px;
       }
     }
   }
