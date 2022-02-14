@@ -101,8 +101,7 @@
   color: #fff;
   form.searchandfilter#search-filter-form-488 {
     @extend %responsive-alignwide-width;
-    ul:not(li.sf-field-post-meta-time_of_year
-        ul, li.sf-field-post-meta-genders_served ul) {
+    ul {
       padding: calc(var(--global--spacing-unit) / 2) var(--global--spacing-unit);
       display: flex;
       flex-wrap: wrap;
