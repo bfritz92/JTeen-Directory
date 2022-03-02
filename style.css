@@ -1965,7 +1965,18 @@ input[type="reset"]:disabled,
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  gap: calc(var(--global--spacing-unit) / 2);
+  gap: 1rem;
+}
+
+.front-page--search form.searchandfilter#search-filter-form-488 ul li.sf-field-post-meta-time_of_year ul li,
+.front-page--search form.searchandfilter#search-filter-form-488 ul li.sf-field-post-meta-genders_served ul li {
+  -webkit-box-flex: 1;
+      -ms-flex: auto;
+          flex: auto;
+  min-width: auto;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 .front-page--search form.searchandfilter#search-filter-form-488 ul li.sf-field-reset {
