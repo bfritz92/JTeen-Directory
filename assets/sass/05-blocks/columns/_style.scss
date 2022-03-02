@@ -119,6 +119,8 @@
         li {
           flex: auto;
           min-width: auto;
+          width: auto;
+          max-width: max-content;
           justify-content: space-evenly;
         }
       }
