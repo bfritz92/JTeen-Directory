@@ -93,40 +93,12 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
  * Measure..............The width of a line of text, in characters.
  */
 /* Categories 01 to 03 are the basics. */
-@import url("https://p.typekit.net/p.css?s=1&k=pil2uny&ht=tk&f=30331.30332.30335&a=87372420&app=typekit&e=css");
-@font-face {
-  font-family: "forma-djr-banner";
-  src: url("https://use.typekit.net/af/cfdf43/00000000000000003b9ae4c2/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("woff2"), url("https://use.typekit.net/af/cfdf43/00000000000000003b9ae4c2/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("woff"), url("https://use.typekit.net/af/cfdf43/00000000000000003b9ae4c2/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("opentype");
-  font-display: auto;
-  font-style: normal;
-  font-weight: 500;
-}
-
-@font-face {
-  font-family: "forma-djr-banner";
-  src: url("https://use.typekit.net/af/e072a0/00000000000000003b9ae4c3/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i5&v=3") format("woff2"), url("https://use.typekit.net/af/e072a0/00000000000000003b9ae4c3/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i5&v=3") format("woff"), url("https://use.typekit.net/af/e072a0/00000000000000003b9ae4c3/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i5&v=3") format("opentype");
-  font-display: auto;
-  font-style: italic;
-  font-weight: 500;
-}
-
-@font-face {
-  font-family: "forma-djr-banner";
-  src: url("https://use.typekit.net/af/142ef3/00000000000000003b9ae4c6/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"), url("https://use.typekit.net/af/142ef3/00000000000000003b9ae4c6/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"), url("https://use.typekit.net/af/142ef3/00000000000000003b9ae4c6/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
-  font-display: auto;
-  font-style: normal;
-  font-weight: 700;
-}
-
-.tk-forma-djr-banner {
-  font-family: "forma-djr-banner", sans-serif;
-}
-
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap");
 /* Variables */
 :root {
   /* Font Family */
-  --global--font-primary: "forma-djr-banner", sans-serif;
-  --global--font-secondary: "forma-djr-banner", sans-serif;
+  --global--font-primary: "Montserrat", sans-serif;
+  --global--font-secondary: "Lora", sans-serif;
   /* Font Size */
   --global--font-size-base: 1.25rem;
   --global--font-size-xs: 1rem;
@@ -137,7 +109,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
   --global--font-size-xxl: 4rem;
   --global--font-size-xxxl: 5rem;
   --global--font-size-page-title: var(--global--font-size-lg);
-  --global--letter-spacing: 0.07rem;
+  --global--letter-spacing: normal;
   /* Line Height */
   --global--line-height-body: 1.7;
   --global--line-height-heading: 1.3;
@@ -150,8 +122,8 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
   --heading--font-size-h3: calc(1.25 * var(--global--font-size-lg));
   --heading--font-size-h2: var(--global--font-size-xl);
   --heading--font-size-h1: var(--global--font-size-page-title);
-  --heading--letter-spacing-h6: 0.05em;
-  --heading--letter-spacing-h5: 0.05em;
+  --heading--letter-spacing-h6: var(--global--letter-spacing);
+  --heading--letter-spacing-h5: var(--global--letter-spacing);
   --heading--letter-spacing-h4: var(--global--letter-spacing);
   --heading--letter-spacing-h3: var(--global--letter-spacing);
   --heading--letter-spacing-h2: var(--global--letter-spacing);
@@ -178,7 +150,8 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
   --global--color-gray: #999;
   --global--color-light-gray: #f0f0f0;
   --global--color-green: #d1e4dd;
-  --global--color-blue: #105a97;
+  --global--color-blue: #000066;
+  --global--color-light-blue: #4779e6;
   --global--color-purple: #d1d1e4;
   --global--color-red: #e4d1d1;
   --global--color-orange: #e4dad1;
@@ -270,7 +243,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
   --branding--logo--max-width-mobile: 96px;
   --branding--logo--max-height-mobile: 96px;
   /* Main navigation */
-  --primary-nav--font-family: var(--global--font-secondary);
+  --primary-nav--font-family: var(--global--font-primary);
   --primary-nav--font-family-mobile: var(--global--font-primary);
   --primary-nav--font-size: var(--global--font-size-sm);
   --primary-nav--font-size-sub-menu: var(--global--font-size-xs);
@@ -279,10 +252,10 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
   --primary-nav--font-size-button: var(--global--font-size-xs);
   --primary-nav--font-style: normal;
   --primary-nav--font-style-sub-menu-mobile: normal;
-  --primary-nav--font-weight: normal;
+  --primary-nav--font-weight: 700;
   --primary-nav--font-weight-button: 500;
-  --primary-nav--color-link: var(--global--color-gray);
-  --primary-nav--color-link-hover: var(--global--color-primary);
+  --primary-nav--color-link: var(--global--color-primary);
+  --primary-nav--color-link-hover: var(--global--color-light-blue);
   --primary-nav--color-text: var(--global--color-gray);
   --primary-nav--padding: calc(0.66 * var(--global--spacing-unit));
   --primary-nav--border-color: var(--global--color-primary);
@@ -761,7 +734,7 @@ template {
   margin-right: auto;
 }
 
-.wide-max-width, .alignwide, .site-header, .site-footer, .post-navigation, .pagination,
+.wide-max-width, .front-page--search form.searchandfilter#search-filter-form-488, .alignwide, .site-header, .site-footer, .post-navigation, .pagination,
 .comments-pagination, .widget-area {
   max-width: var(--responsive--alignwide-width);
   margin-left: auto;
@@ -1600,7 +1573,7 @@ pre {
  */
 a {
   cursor: pointer;
-  color: var(--wp--style--color--link, var(--global--color-primary));
+  color: var(--global--color-primary);
   text-underline-offset: 3px;
   text-decoration-skip-ink: all;
 }
@@ -1967,12 +1940,56 @@ input[type="reset"]:disabled,
   color: #fff;
 }
 
-.front-page--search form ul {
+.front-page--search form.searchandfilter#search-filter-form-488 ul {
   padding: calc(var(--global--spacing-unit) / 2) var(--global--spacing-unit);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: calc(var(--global--spacing-unit) / 2);
 }
 
-.front-page--search form ul li ul {
+.front-page--search form.searchandfilter#search-filter-form-488 ul li {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 30%;
+          flex: 1 0 30%;
+  min-width: 170px;
+}
+
+.front-page--search form.searchandfilter#search-filter-form-488 ul li.sf-field-post-meta-time_of_year ul,
+.front-page--search form.searchandfilter#search-filter-form-488 ul li.sf-field-post-meta-genders_served ul {
   padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: calc(var(--global--spacing-unit) / 2);
+}
+
+.front-page--search form.searchandfilter#search-filter-form-488 ul li.sf-field-post-meta-time_of_year ul li,
+.front-page--search form.searchandfilter#search-filter-form-488 ul li.sf-field-post-meta-genders_served ul li {
+  -webkit-box-flex: 1;
+      -ms-flex: auto;
+          flex: auto;
+  min-width: auto;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.front-page--search form.searchandfilter#search-filter-form-488 ul li.sf-field-reset {
+  -ms-grid-column: 3;
+  grid-column: 3;
+}
+
+.front-page--search form.searchandfilter#search-filter-form-488 ul li.sf-field-reset a {
+  float: right;
+}
+
+.front-page--search form.searchandfilter#search-filter-form-488 ul li.sf-field-search {
+  min-width: 170px;
 }
 
 .search-filter-result-item {
@@ -2029,6 +2046,11 @@ input[type="reset"]:disabled,
   font-size: var(--global--font-size-sm);
 }
 
+.search-filter-result-item .resource--info dl div dd,
+.search-filter-result-item .resource--info dl div dt {
+  padding-right: calc((var(--global--spacing-horizontal)) / 2);
+}
+
 .search-filter-result-item .resource--info dl div dd h4,
 .search-filter-result-item .resource--info dl div dd a,
 .search-filter-result-item .resource--info dl div dd strong,
@@ -2038,6 +2060,7 @@ input[type="reset"]:disabled,
 .search-filter-result-item .resource--info dl div dt strong,
 .search-filter-result-item .resource--info dl div dt p {
   line-height: 1;
+  font-family: "Montserrat";
 }
 
 .search-filter-result-item .resource--info div {
@@ -2074,16 +2097,14 @@ input[type="reset"]:disabled,
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: start;
-  gap: calc(var(--global--spacing-unit) / 2);
+  gap: var(--global--spacing-unit);
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   padding-top: var(--global--spacing-unit);
 }
 
 .tags--title {
-  color: var(--global--color-white);
-  background-color: var(--global--color-blue);
-  padding: 10px 20px;
+  color: var(--global--color-blue);
   font-size: var(--global--font-size-sm);
   word-break: keep-all;
   font-size: 0.9rem;
@@ -2125,6 +2146,7 @@ form.searchandfilter ul li.sf-field-post-meta-grades_served .sf-meta-range.sf-me
           order: 2;
   font-size: var(--global--font-size-lg);
   font-weight: 700;
+  font-family: var(--global--font-primary);
 }
 
 form.searchandfilter ul li.sf-field-post-meta-grades_served .sf-meta-range.sf-meta-range-slider span.sf-range-min {
@@ -2175,13 +2197,14 @@ form.searchandfilter ul li.sf-field-post-meta-genders_served ul li label:hover, 
 form.searchandfilter ul li.sf-field-post-meta-time_of_year ul li label:hover,
 form.searchandfilter ul li.sf-field-post-meta-time_of_year ul li label:active {
   color: var(--global--color-blue);
-  background-color: #fff;
+  background-color: var(--global--color-light-blue);
 }
 
 form.searchandfilter ul li.sf-field-post-meta-genders_served ul li.sf-option-active label,
 form.searchandfilter ul li.sf-field-post-meta-time_of_year ul li.sf-option-active label {
   color: var(--global--color-blue);
   background-color: #fff;
+  font-weight: 700;
 }
 
 form.searchandfilter ul li.sf-field-reset a {

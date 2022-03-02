@@ -116,6 +116,11 @@
         display: flex;
         flex-wrap: wrap;
         gap: calc(var(--global--spacing-unit) / 2);
+        li {
+          flex: auto;
+          min-width: auto;
+          justify-content: space-evenly;
+        }
       }
       li.sf-field-reset {
         grid-column: 3;
