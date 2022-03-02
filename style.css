@@ -1966,6 +1966,9 @@ input[type="reset"]:disabled,
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   gap: 1rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .front-page--search form.searchandfilter#search-filter-form-488 ul li.sf-field-post-meta-time_of_year ul li,
@@ -1974,9 +1977,10 @@ input[type="reset"]:disabled,
       -ms-flex: auto;
           flex: auto;
   min-width: auto;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  width: auto;
+  max-width: -webkit-max-content;
+  max-width: -moz-max-content;
+  max-width: max-content;
 }
 
 .front-page--search form.searchandfilter#search-filter-form-488 ul li.sf-field-reset {
