@@ -116,7 +116,7 @@
         display: flex;
         flex-wrap: wrap;
         gap: var(--global--spacing-unit);
-        justify-content: space-between;
+        justify-content: start;
         li {
           flex: auto;
           min-width: auto;

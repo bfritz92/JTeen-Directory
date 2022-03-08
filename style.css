@@ -682,9 +682,7 @@ template {
  */
 :root {
   --responsive--spacing-horizontal: (--global--spacing-horizontal);
-  --responsive--aligndefault-width: calc(
-    100vw - var(--responsive--spacing-horizontal)
-  );
+  --responsive--aligndefault-width: 850px;
   --responsive--alignwide-width: calc(
     100vw - var(--responsive--spacing-horizontal)
   );
@@ -1966,9 +1964,9 @@ input[type="reset"]:disabled,
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   gap: var(--global--spacing-unit);
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
 }
 
 .front-page--search form.searchandfilter#search-filter-form-488 ul li.sf-field-post-meta-time_of_year ul li,

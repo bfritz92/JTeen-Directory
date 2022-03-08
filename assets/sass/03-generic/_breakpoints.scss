@@ -83,9 +83,7 @@ $breakpoint_xxl: 1024px;
 :root {
   //--responsive--spacing-horizontal: calc(2 * var(--global--spacing-horizontal) * 0.6);
   --responsive--spacing-horizontal: (--global--spacing-horizontal);
-  --responsive--aligndefault-width: calc(
-    100vw - var(--responsive--spacing-horizontal)
-  );
+  --responsive--aligndefault-width: 850px;
   --responsive--alignwide-width: calc(
     100vw - var(--responsive--spacing-horizontal)
   );
