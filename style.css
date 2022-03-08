@@ -682,7 +682,9 @@ template {
  */
 :root {
   --responsive--spacing-horizontal: (--global--spacing-horizontal);
-  --responsive--aligndefault-width: 850px;
+  --responsive--aligndefault-width: calc(
+    100vw - var(--responsive--spacing-horizontal)
+  );
   --responsive--alignwide-width: calc(
     100vw - var(--responsive--spacing-horizontal)
   );
@@ -712,7 +714,7 @@ template {
 @media only screen and (min-width: 822px) {
   :root {
     --responsive--aligndefault-width: min(
-      calc(100vw - 8 * var(--global--spacing-horizontal)),
+      calc(100vw - 4 * var(--global--spacing-horizontal)),
       610px
     );
     --responsive--alignwide-width: min(
