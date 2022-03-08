@@ -1947,7 +1947,7 @@ input[type="reset"]:disabled,
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  gap: calc(var(--global--spacing-unit) / 2);
+  gap: var(--global--spacing-unit);
 }
 
 .front-page--search form.searchandfilter#search-filter-form-488 ul li {
