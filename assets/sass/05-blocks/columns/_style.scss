@@ -102,7 +102,7 @@
   form.searchandfilter#search-filter-form-488 {
     @extend %responsive-alignwide-width;
     ul {
-      padding: calc(var(--global--spacing-unit) / 2) var(--global--spacing-unit);
+      padding: var(--global--spacing-unit);
       display: flex;
       flex-wrap: wrap;
       gap: calc(var(--global--spacing-unit) / 2);
@@ -115,7 +115,7 @@
         padding: 0;
         display: flex;
         flex-wrap: wrap;
-        gap: 1rem;
+        gap: var(--global--spacing-unit);
         justify-content: space-between;
         li {
           flex: auto;
@@ -284,7 +284,7 @@ form.searchandfilter {
       ul {
         display: flex;
         flex-wrap: wrap;
-        gap: calc(var(--global--spacing-unit) / 2);
+        gap: var(--global--spacing-unit);
         li {
           input {
             display: none;

@@ -1941,7 +1941,7 @@ input[type="reset"]:disabled,
 }
 
 .front-page--search form.searchandfilter#search-filter-form-488 ul {
-  padding: calc(var(--global--spacing-unit) / 2) var(--global--spacing-unit);
+  padding: var(--global--spacing-unit);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
