@@ -1965,7 +1965,7 @@ input[type="reset"]:disabled,
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  gap: 1rem;
+  gap: var(--global--spacing-unit);
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -2180,7 +2180,7 @@ form.searchandfilter ul li.sf-field-post-meta-time_of_year ul {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  gap: calc(var(--global--spacing-unit) / 2);
+  gap: var(--global--spacing-unit);
 }
 
 form.searchandfilter ul li.sf-field-post-meta-genders_served ul li input,
